@@ -1,9 +1,9 @@
 ---
 title: Home
 template: home
-tagline: 'Building a mental wellbeing culture'
+tagline: 'What did **you** do today to take care of your mental health?'
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1602961563
+updated_at: 1602967996
 mental_wellbeing_definition_question: 'What is mental wellbeing?'
 mental_wellbeing_definition_answer: '&ldquo;**Mental well-being** is a state of **well-being** in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community.&rdquo;'
 vision_question: 'Bríd''s Vision'

@@ -41,9 +41,37 @@
     }
 }
 
-#home>section:nth-child(odd) {
-    background-color: white;
+#home>section {
+    &:nth-child(odd) {
+        background-color: white;
+    }
+    &:nth-child(even) {
+        background-color: #F8FCFC;
+    }
 }
+  
+  
+  .parallax::after {
+    /* Position the pseudo-element to fill the parent */
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    /* Scale the image to full */
+    background-size: cover;
+    
+    /* Move the element back then scale the element, it helps to appears more slowly */
+    transform: translateZ(-15px) scale(2.4);
+    
+    /* Set the parallax section before the other elements. */
+    z-index: -1;
+    
+    background-image: url(https://source.unsplash.com/7xP5BJ34ybg/1600x900);
+  }
+
 
 .vueperslide {
     display: flex; 

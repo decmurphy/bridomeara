@@ -37,12 +37,15 @@ sections:
       -
         handle: tagline
         field:
-          type: text
-          validate:
-            - required
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
           display: Tagline
+          type: markdown
+          icon: markdown
           listable: hidden
-          input_type: text
       -
         handle: image
         field:
