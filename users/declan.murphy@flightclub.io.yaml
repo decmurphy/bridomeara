@@ -1,0 +1,11 @@
+name: Declan
+super: true
+id: da07ab4c-34e8-47d2-afe9-a33081c1f656
+password_hash: $2y$10$qAc/jvO7b6tsmcJn9qTrlOduYOBSpa3Fi4TFmmMbayHGMnhMRET..
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing
+  assets:
+    assets:
+      mode: table

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+
+<head>
+    <title>{{ title }} | Bríd O' Meara</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="brid o meara, brid, consultancy, consultant, mental, health, wellbeing, wellness, culture" />
+    <meta name="author" content="Declan Murphy">
+    <meta name="description" content="Building a culture of mental wellbeing" />
+
+    <link rel="apple-touch-icon" href="{{ favicon }}">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@flightclubio" />
+    <meta name="twitter:creator" content="@decmurphy_" />
+    <meta name="twitter:title" content="Bríd O' Meara" />
+    <meta name="twitter:description" content="Bríd O' Meara is building a culture of mental wellbeing" />
+    <meta name="twitter:image" content="https://flightclub.io/assets/img/earth_and_sun.png" />
+
+    <meta property="og:title" content="Bríd O' Meara" />
+    <meta property="og:site_name" content="Bríd O' Meara" />
+    <meta property="og:url" content="https://bridomeara.ie" />
+    <meta property="og:description" content="Bríd O' Meara is building a culture of mental wellbeing" />
+    <meta property="og:content" content="Bríd O' Meara is building a culture of mental wellbeing" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://flightclub.io/assets/img/earth_and_sun.png" />
+
+    <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+    <link rel="stylesheet" href="https://unpkg.com/vueperslides/dist/vueperslides.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@100;200;300;400;500;600;700&display=swap">
+
+</head>
+
+<body class="bg-white font-sans text-primary-900 overflow-x-hidden" x-data="{ showMobileNav: false }">
+    <div class='flex flex-col w-screen h-screen'>
+        {{ partial:partials/nav }}
+    <div class='flex flex-grow flex-col w-full pl-56  mx-auto relative'>
+        {{ template_content }} {{ partial:partials/footer }}
+    </div>
+    </div>
+
+    <!-- development version, includes helpful console warnings -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <!-- production version, optimized for size and speed -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+
+    <script src="https://unpkg.com/vueperslides"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_yRxcYmqzAWxwgAcLjuVoc");
+        })();
+    </script>
+    
+    <script src="{{ mix src='/js/site.js' }}"></script>
+</body>
+
+</html>

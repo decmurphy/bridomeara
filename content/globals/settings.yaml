@@ -1,0 +1,19 @@
+title: Settings
+data:
+  favicon: brand/triple-spiral.png
+  site_name: 'Bríd O'' Meara Consultancy'
+  logo: brand/BridOMeara_Portrait_Final_Logo-large_cropped2.png
+  nav_name: 'Bríd O'' Meara'
+  social:
+    -
+      name: LinkedIn
+      url: 'https://www.linkedin.com/in/br%C3%ADd-o-meara-90a39736/'
+      icon: social_icons/linkedin.svg
+    -
+      name: Facebook
+      url: 'https://www.facebook.com/brid.omeara.7'
+      icon: social_icons/facebook.svg
+    -
+      name: Email
+      url: 'mailto:brid@bridomeara.ie'
+      icon: social_icons/email.svg

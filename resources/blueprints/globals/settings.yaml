@@ -1,0 +1,75 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: favicon
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: Favicon
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: site_name
+        field:
+          type: text
+      -
+        handle: logo
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: Logo
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: nav_name
+        field:
+          input_type: text
+          display: 'Nav Name'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: social
+        field:
+          fields:
+            -
+              handle: name
+              field:
+                input_type: text
+                display: Name
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: url
+              field:
+                input_type: text
+                display: Url
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: icon
+              field:
+                mode: grid
+                restrict: false
+                allow_uploads: true
+                max_files: 1
+                display: Icon
+                type: assets
+                icon: assets
+                listable: hidden
+          mode: table
+          reorderable: true
+          display: Social
+          type: grid
+          icon: grid
+          listable: hidden

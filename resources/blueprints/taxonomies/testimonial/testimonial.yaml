@@ -1,0 +1,52 @@
+title: Testimonial
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: author
+        field:
+          input_type: text
+          display: Author
+          type: text
+          icon: text
+          instructions: 'The name of the person who gave this testimonial'
+          width: 50
+          listable: hidden
+      -
+        handle: organisation
+        field:
+          input_type: text
+          display: Organisation
+          type: text
+          icon: text
+          instructions: 'Where did you work with the author?'
+          width: 50
+          listable: hidden
+      -
+        handle: content
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          display: Content
+          type: markdown
+          icon: markdown
+          instructions: 'What did they say about you?'
+          listable: hidden
+  sidebar:
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true

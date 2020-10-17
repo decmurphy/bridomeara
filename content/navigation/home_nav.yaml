@@ -1,0 +1,16 @@
+title: "Home Nav"
+logo: brand/triple-spiral.png
+max_depth: 1
+tree:
+  - title: "About Bríd"
+    url: "#about"
+  - title: "Mental Health & Wellbeing Talks"
+    url: "#talks"
+  - title: "Organisational Assistance"
+    url: "#organisational-assistance"
+  - title: "Expert Nursing Opinion"
+    url: "#expert-nursing-opinion"
+  - title: Testimonials
+    url: "#testimonials"
+  - title: Contact
+    url: "#contact"

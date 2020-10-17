@@ -1,0 +1,24 @@
+<nav class='z-50 bg-white fixed top-0 left-0 h-screen w-56 shadow-lg flex flex-col items-center'>
+
+    <a class='mt-20 flex flex-col items-center text-primary-800' href='#top'>
+        <img class="w-40 mb-4" alt="Logo" src="{{ settings:logo }}" />
+        <!-- <span class="font-semibold font-serif text-2xl tracking-tight">{{ settings:nav_name }}</span> -->
+    </a>
+
+    <div class='flex flex-col subheading-1 font-sans uppercase text-center group mt-12 w-3/4 space-y-2'>
+        {{ nav handle="home_nav" }}
+        <a class='transition duration-150 ease-linear py-1  {{ if url == "#contact"}} bg-accent-400 text-gray-900 hover:bg-accent-300 rounded-lg {{ else }} text-gray-500 hover:text-primary-900 {{ /if }}' href='{{ url }}'>
+            <span class='whitespace-normal '>{{ title }}</span>
+        </a>
+        {{ /nav }}
+    </div>
+
+    <div class='flex flex-row justify-evenly items-center mt-12 w-3/4'>
+        {{ settings:social }}
+            <a class='bg-white text-primary-900 text-opacity-50 hover:text-opacity-100 transition duration-150 ease-linear' aria-label="{{ name }}" href='{{ url }}' rel="noopener">
+                {{ svg :src="icon" class="h-6 w-6 hover:text-teal" }}
+            </a>
+        {{ /settings:social }}
+    </div>
+
+</nav>
