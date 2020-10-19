@@ -18,13 +18,24 @@ sections:
         field:
           type: text
       -
-        handle: logo
+        handle: logo_icon
         field:
           mode: grid
           restrict: false
           allow_uploads: true
           max_files: 1
-          display: Logo
+          display: Logo Icon
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: logo_label
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: Logo Label
           type: assets
           icon: assets
           listable: hidden

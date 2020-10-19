@@ -2,7 +2,8 @@ title: Settings
 data:
   favicon: brand/triple-spiral.png
   site_name: 'Bríd O'' Meara Consultancy'
-  logo: brand/BridOMeara_Portrait_Final_Logo-large_cropped2.png
+  logo_icon: brand/BridOMeara_Symbol.svg
+  logo_label: brand/bom-logo-text.svg
   nav_name: 'Bríd O'' Meara'
   social:
     -
