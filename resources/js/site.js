@@ -55,7 +55,3 @@ var app = new Vue({
         
     }
   });
-
-//   export default {
-//     components: { VueperSlides, VueperSlide }
-//   }

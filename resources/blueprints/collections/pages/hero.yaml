@@ -1,4 +1,5 @@
-title: Hero
+order: 1
+title: Home
 sections:
   main:
     display: Main
@@ -11,13 +12,13 @@ sections:
           validate:
             - required
       -
-        handle: watermark
+        handle: image
         field:
           mode: grid
           restrict: false
           allow_uploads: true
           max_files: 1
-          display: Watermark
+          display: 'Background image'
           type: assets
           icon: assets
           listable: hidden
@@ -35,107 +36,27 @@ sections:
           width: 50
           max_files: 1
       -
-        handle: tagline
+        handle: vision
         field:
           restrict: false
           automatic_line_breaks: true
           automatic_links: false
           escape_markup: false
           smartypants: false
-          display: Tagline
+          display: Vision
           type: markdown
           icon: markdown
           listable: hidden
       -
-        handle: image
-        field:
-          mode: grid
-          restrict: false
-          allow_uploads: true
-          max_files: 1
-          display: 'Background image'
-          type: assets
-          icon: assets
-          listable: hidden
+        handle: testimonial
+        field: teaser.testimonial
       -
-        handle: mental_wellbeing_definition_question
+        handle: template
         field:
-          input_type: text
-          display: 'Mental Wellbeing Definition Question'
-          type: text
-          icon: text
-          width: 33
-          listable: hidden
-      -
-        handle: mental_wellbeing_definition_answer
-        field:
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
-          display: 'Mental Wellbeing Definition Answer'
-          type: markdown
-          icon: markdown
-          width: 66
-          listable: hidden
-      -
-        handle: vision_question
-        field:
-          input_type: text
-          display: 'Vision Question'
-          type: text
-          icon: text
-          width: 33
-          listable: hidden
-      -
-        handle: vision_answer
-        field:
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
-          display: 'Vision Answer'
-          type: markdown
-          icon: markdown
-          width: 66
-          listable: hidden
-      -
-        handle: about_brid
-        field:
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
-          display: 'About Bríd'
-          type: markdown
-          icon: markdown
-          listable: hidden
-          width: 75
-      -
-        handle: avatar
-        field:
-          mode: grid
-          restrict: false
-          allow_uploads: true
-          max_files: 1
-          display: Avatar
-          type: assets
-          icon: assets
-          width: 25
-          listable: hidden
-      -
-        handle: footer_image
-        field:
-          mode: grid
-          restrict: false
-          allow_uploads: true
-          max_files: 1
-          display: 'Footer Image'
-          type: assets
-          icon: assets
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
           listable: hidden
   sidebar:
     display: Sidebar

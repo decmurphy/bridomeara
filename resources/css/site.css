@@ -46,10 +46,18 @@
         background-color: white;
     }
     &:nth-child(even) {
-        background-color: #F8FCFC;
+        background-color: #FFFFFF;
     }
 }
-  
+
+.hero-logo {
+    /* 
+        0.5 * (100% - 1280px) is the width of the gutter in xl screens
+        147px is the width of the triskelle in the logo
+        this will make the start of "Brid" line up with the vision text below
+    */
+    left: calc(0.5 * (100% - 1280px) - 147px);
+}
   
   .parallax::after {
     /* Position the pseudo-element to fill the parent */
@@ -70,26 +78,33 @@
     z-index: -1;
     
     background-image: url(https://source.unsplash.com/7xP5BJ34ybg/1600x900);
+    background-position: right;
   }
-
-
-.vueperslide {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #2A3F3F;
-
-    p {
-        margin-right: auto;
-        margin-left: auto; 
+  
+/*
+    Convert a chevron-right icon into an arrow-right icon on hover. 
+    Translate and delayed opacity transitions, reversed transitions on unhover
+    See buttons on /home for reference. 
+    • Must add .absolute to svgs and put them centered in a div.relative 
+    • Must add .animated-icon-link to button/link
+*/
+.animated-icon-link {
+    .chevron-right {
+        transition: opacity 150ms linear 0s, transform 150ms linear 150ms;
     }
-}
-
-.vueperslides__arrow {
-    padding: 0;
-}
-
-.vueperslides__arrows {
-    color: #2A3F3F;
+    .arrow-right {
+        transition: opacity 150ms linear 0s;
+        opacity: 0;
+    }
+    &:hover {
+        .chevron-right {
+            transition: transform 150ms linear 0s, opacity 150ms linear 150ms;
+            transform: translateX(6px);
+            opacity: 0;
+        }
+        .arrow-right {
+            transition-delay: 150ms;
+            opacity: 1;
+        }
+    }
 }

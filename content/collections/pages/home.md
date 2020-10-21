@@ -1,9 +1,9 @@
 ---
 title: Home
-template: home
+template: templates/home
 tagline: 'What did **you** do today to take care of your mental health?'
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603029338
+updated_at: 1603292078
 mental_wellbeing_definition_question: 'What is mental wellbeing?'
 mental_wellbeing_definition_answer: '&ldquo;**Mental well-being** is a state of **well-being** in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community.&rdquo;'
 vision_question: 'Bríd''s Vision'
@@ -13,7 +13,9 @@ avatar: brand/profile_picture.jpg
 image: stock/masaaki-komori-7xP5BJ34ybg-unsplash.jpg
 footer_image: stock/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg
 watermark: brand/BridOMeara_Symbol_Watermark.svg
-hero_logo: brand/bom-logo-text.svg
+vision: 'Bríd undertakes to build a culture of mental wellbeing, where people are empowered through knowledge and awareness to protect and promote mental health and wellbeing, removing stigma of mental illness.'
+testimonial: claire-hayes
+hero_logo: brand/BridOMeara_Landscape_Final_Logo.svg
 id: home
 ---
 Welcome to your new Statamic website.

@@ -18,35 +18,29 @@ sections:
         field:
           type: text
       -
-        handle: logo_icon
+        handle: logo
         field:
           mode: grid
           restrict: false
           allow_uploads: true
           max_files: 1
-          display: Logo Icon
+          display: Logo
           type: assets
           icon: assets
           listable: hidden
+          width: 50
       -
-        handle: logo_label
+        handle: watermark
         field:
           mode: grid
           restrict: false
           allow_uploads: true
-          max_files: 1
-          display: Logo Label
+          display: Watermark
           type: assets
           icon: assets
+          width: 50
           listable: hidden
-      -
-        handle: nav_name
-        field:
-          input_type: text
-          display: 'Nav Name'
-          type: text
-          icon: text
-          listable: hidden
+          max_files: 1
       -
         handle: social
         field:

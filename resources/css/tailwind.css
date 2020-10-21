@@ -3,24 +3,34 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+.divider {
+    @apply border-gray-500 border-solid border-opacity-50;
+    &:not(.vertical) {
+        @apply my-4 border-b flex;
+    }
+    &.vertical {
+        @apply mx-4 border-r flex; 
+    }
+}
+
 .btn {
-    @apply flex flex-row justify-start items-center rounded-lg font-normal py-2 px-4 transition duration-250 ease-linear cursor-pointer focus:outline-none;
+    @apply flex flex-row justify-start items-center rounded-lg py-2 px-4 transition duration-250 ease-linear cursor-pointer focus:outline-none;
     &.primary {
-        @apply bg-primary-500 text-black;
+        @apply bg-primary-500 text-white;
         &:hover {
-            @apply bg-primary-300 text-black;
+            @apply bg-primary-400 text-gray-600;
         }
     }
     &.accent {
-        @apply bg-accent-500 text-black;
+        @apply bg-accent-500 text-white;
         &:hover {
-            @apply bg-accent-300 text-black;
+            @apply bg-accent-400 text-gray-600;
         }
     }
     &.warn {
-        @apply bg-warn-500 text-black;
+        @apply bg-warn-500 text-white;
         &:hover {
-            @apply bg-warn-300 text-black;
+            @apply bg-warn-400 text-gray-600;
         }
     }
     &.raised {

@@ -1,8 +1,8 @@
-<section class="w-full h-auto min-h-12 text-white text-sm font-semibold font-serif bg-primary-900 flex flex-col md:flex-row justify-between items-center px-8">
+<section class="w-full h-auto min-h-12 text-white text-sm font-semibold font-serif bg-accent-500 flex flex-col md:flex-row justify-between items-center px-8">
     <div class="py-2 md:py-0">&copy; {{ now format="Y" }} {{ settings:site_name }}</div>
     <div class="flex flex-row py-2 md:py-0">
         {{ settings:social }}
-            <a href="{{ url }}" class="mr-8 transition duration-150 ease-linear text-gray-300 hover:text-white" aria-label="{{ name }}" rel="noopener">
+            <a href="{{ url }}" class="mr-8 transition duration-150 ease-linear hover:text-primary-300" aria-label="{{ name }}" rel="noopener">
                 {{ svg :src="icon" class="h-6 w-6 hover:text-teal" }}
             </a>
         {{ /settings:social }}

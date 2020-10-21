@@ -30,26 +30,25 @@
     <meta property="og:image" content="https://flightclub.io/assets/img/earth_and_sun.png" />
 
     <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
-    <link rel="stylesheet" href="https://unpkg.com/vueperslides/dist/vueperslides.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@100;200;300;400;500;600;700&display=swap">
 
 </head>
 
-<body class="bg-white font-sans text-primary-900 overflow-x-hidden" x-data="{ showMobileNav: false }">
+<body class="bg-white font-sans text-gray-600 overflow-x-hidden" x-data="{ showMobileNav: false }">
     <div class='flex flex-col w-screen h-screen'>
         {{ partial:partials/nav }}
-    <div class='pl-56 flex flex-col w-full relative overflow-y-auto'>
+        <div class='mt-16 flex flex-col w-full relative overflow-x-hidden'>
             {{ template_content }}
+
+        </div>
     </div>
 
     <!-- development version, includes helpful console warnings -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
     <!-- production version, optimized for size and speed -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
-
-    <script src="https://unpkg.com/vueperslides"></script>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
