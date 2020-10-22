@@ -80,3 +80,23 @@ nav .links li:hover > ul {
         transform:none
     }
 }
+
+.menu-container:not(.dropdown-visible) {
+    opacity: 0;
+    z-index: -10;
+    perspective: 2000px;
+}
+.menu-container:not(.dropdown-visible) .menu-card {
+    height: 192px;
+    transform: rotateX(-15deg);
+}
+
+.menu-container.dropdown-visible {
+    opacity: 1;
+    z-index: 200;
+    perspective: 2000px;
+}
+.menu-container.dropdown-visible .menu-card {
+    height: 192px;
+    transform: rotateX(0deg);
+}
