@@ -1,9 +1,9 @@
 ---
 title: Contact
-phone_number: '(+353) 86 123 4567'
+phone_number: '(+353) 87 210 4718'
 email_address: brid@bridomeara.ie
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603391185
+updated_at: 1603404949
 blueprint: contact_page
 header: 'How can I help you?'
 template: templates/contact

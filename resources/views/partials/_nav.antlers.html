@@ -1,4 +1,4 @@
-<div id="nav" class='w-screen h-16'>
+<div id="nav" class='w-screen h-16 z-50 sticky top-0 left-0'>
     <nav class='h-full w-full z-50 bg-white sticky top-0 left-0 shadow-lg'>
 
         <div class='flex flex-row justify-between h-full max-w-full px-8 xl:max-w-screen-xl xl:px-2 xl:mx-auto'>
@@ -11,7 +11,7 @@
 
                 <!-- Desktop Nav  -->
                 <ul class='links relative hidden md:flex flex-row items-center subheading-1 font-sans uppercase text-center'>
-                    {{ nav }}
+                    {{ nav include_home="true" }}
                         <li class='group relative {{ if depth == 1 }} w-32 {{ else }} w-72 h-16  {{ /if }}  bg-white rounded-sm'>
                             <a class='transition duration-150 ease-linear flex justify-center items-center h-full w-full px-4 py-2 transform rounded-lg {{ if url == "/contact"}} bg-accent-500 text-black hover:bg-accent-400 {{ else }} bg-white text-gray-700 hover:text-primary-900 hover:bg-primary-200 {{ /if }}' href='{{ url }}'>
                                 <span class='whitespace-normal'>{{ title }}</span>
@@ -41,7 +41,7 @@
     <div v-bind:class="{ 'dropdown-visible': mobileMenuOpen }" class="menu-container absolute top-16 transition-all duration-250 ease-in-out">
         <div class='menu-card bg-fg-100 relative overflow-hidden rounded-lg shadow-2xl transition-all origin-top duration-250 ease-in-out'>
             <ul class='links relative flex flex-col justify-start items-start subheading-1 font-sans uppercase'>
-                {{ nav }}
+                {{ nav include_home="true" }}
                     <li class='relative w-screen flex bg-white h-16 '>
                         <a class='w-full h-full flex items-center transition duration-150 ease-linear px-4 py-2 transform bg-white text-gray-700 hover:bg-primary-500' href='{{ url }}'>
                             <span class='whitespace-normal'>{{ title }}</span>

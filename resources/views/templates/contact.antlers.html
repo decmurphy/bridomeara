@@ -12,9 +12,9 @@
 
             <div class='flex flex-col-reverse lg:flex-row lg:justify-between lg:items-start'>
                 <div class='w-full lg:w-1/2'>
-                    <section id="contact" class="relative w-full mx-auto text-base font-serif bg-white">
+                    <section id="contact" class="relative w-full mx-auto text-base font-serif">
                         <div class="z-10 max-w-full md:px-8 md:w-5/6 xl:max-w-screen-lg xl:px-0 mx-auto">
-                            <form class="py-4 px-8 bg-white rounded shadow-lg z-10" id="contactForm" >
+                            <form class="py-4 px-8 rounded shadow-lg z-10" id="contactForm" >
 
                                 <fieldset>
                                     <legend class="w-full pb-3 mb-8 border-b border-solid border-gray-300 font-light text-2xl">Get In Touch</legend>
@@ -25,7 +25,7 @@
                                         </div>
                                         <div class="relative">
                                             <label class="inline-block mb-3" for="email">Email</label>
-                                            <input type="email" id="email" v-model="email.value" placeholder="jane.doe@gmail.com" required class="w-full p-3 border border-solid rounded shadow-inner focus:shadow-md focus:outline-none" v-bind:class="{ 'border-gray-300 focus:border-primary-800': email.valid, 'border-red-500': !email.valid }" v-on:keyup="validateEmail" />
+                                            <input type="email" id="email" v-model="email.value" placeholder="jane.doe@gmail.com" required class="w-full p-3 border border-solid rounded shadow-inner focus:shadow-md focus:outline-none" v-bind:class="{ 'border-gray-300 focus:border-primary-800': email.valid, 'border-warn-500': !email.valid }" v-on:keyup="validateEmail" />
                                         </div>
                                     </div>
                                     <div class="relative mb-4">

@@ -1,12 +1,12 @@
 /* This is all you. */
 
-.hero-logo {
+.hero_large {
     /* 
         0.5 * (100% - 1280px) is the width of the gutter in xl screens
         147px is the width of the triskelle in the logo
         this will make the start of "Brid" line up with the vision text below
     */
-    left: calc(0.5 * (100% - 1280px) - 147px);
+    margin-left: -173px;
 }
 
 .parallax {
@@ -87,7 +87,7 @@ nav .links li:hover > ul {
     perspective: 2000px;
 }
 .menu-container:not(.dropdown-visible) .menu-card {
-    height: 192px;
+    height: 256px;
     transform: rotateX(-15deg);
 }
 
@@ -97,6 +97,6 @@ nav .links li:hover > ul {
     perspective: 2000px;
 }
 .menu-container.dropdown-visible .menu-card {
-    height: 192px;
+    height: 256px;
     transform: rotateX(0deg);
 }
