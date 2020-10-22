@@ -1,4 +1,4 @@
 #!/bin/bash
 
 npm run production
-sudo cp -r * /var/www/www.bridomeara.ie/
+sudo cp -r public/* /var/www/www.bridomeara.ie/public/
