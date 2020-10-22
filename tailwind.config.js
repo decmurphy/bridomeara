@@ -277,6 +277,7 @@ module.exports = {
                 max: '1180px',
             },
             maxWidth: {
+                '32': '8rem',
                 '1/2': '50%',
                 '1/3': '33.333333%',
                 '2/3': '66.666667%',
@@ -414,6 +415,7 @@ module.exports = {
         scale: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
         backgroundColor: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
         textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+        display: ['responsive', 'hover', 'focus', 'group-hover'],
     },
     plugins: [],
     corePlugins: {

@@ -12,16 +12,15 @@ sections:
           validate:
             - required
       -
-        handle: content
+        handle: service
         field:
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
-          display: Content
-          type: markdown
-          icon: markdown
+          max_items: 1
+          mode: default
+          collections:
+            - services
+          display: Service
+          type: entries
+          icon: entries
           listable: hidden
       -
         handle: testimonial

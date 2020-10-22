@@ -11,6 +11,7 @@ sections:
           required: true
           validate:
             - required
+          width: 50
       -
         handle: image
         field:
@@ -24,18 +25,6 @@ sections:
           listable: hidden
           width: 50
       -
-        handle: hero_logo
-        field:
-          mode: grid
-          restrict: false
-          allow_uploads: true
-          display: 'Hero Logo'
-          type: assets
-          icon: assets
-          listable: hidden
-          width: 50
-          max_files: 1
-      -
         handle: vision
         field:
           restrict: false
@@ -48,8 +37,23 @@ sections:
           icon: markdown
           listable: hidden
       -
-        handle: testimonial
+        handle: primary_testimonial
         field: teaser.testimonial
+        config:
+          display: 'Primary Testimonial'
+          width: 50
+      -
+        handle: secondary_testimonial
+        field:
+          max_items: 1
+          mode: default
+          taxonomies:
+            - testimonial
+          display: 'Secondary Testimonial'
+          type: terms
+          icon: taxonomy
+          width: 50
+          listable: hidden
       -
         handle: template
         field:

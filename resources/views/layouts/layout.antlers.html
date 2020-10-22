@@ -11,7 +11,9 @@
     <meta name="author" content="Declan Murphy">
     <meta name="description" content="Building a culture of mental wellbeing" />
 
-    <link rel="apple-touch-icon" href="{{ favicon }}">
+    <link rel="apple-touch-icon" href="{{ settings:favicon }}">
+    <link rel="icon" type="image/png" href="{{ settings:favicon }}"/>
+    <link rel="icon" type="image/png" href="{{ settings:favicon }}"/>
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@flightclubio" />
@@ -36,18 +38,10 @@
 
 </head>
 
-<body class="bg-white font-sans text-gray-600 overflow-x-hidden" x-data="{ showMobileNav: false }">
-    <div class='flex flex-col w-screen h-screen'>
-        {{ partial:partials/nav }}
-        <div class='mt-16 flex flex-col w-full relative overflow-x-hidden'>
-            {{ template_content }}
+<body class="font-sans text-gray-600 flex flex-col w-screen overflow-x-hidden" x-data="{ showMobileNav: false }">
 
-        </div>
-    </div>
-
-    <!-- development version, includes helpful console warnings -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
-    <!-- production version, optimized for size and speed -->
+    {{ template_content }}
+    
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>

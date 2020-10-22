@@ -1,9 +1,11 @@
 ---
 title: 'Organisational Assistance'
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603292068
+updated_at: 1603386340
 blueprint: service_page
-template: templates/service
+template: services/show
+service: 3fba39f8-1d4d-42b8-9edc-b48eac4bc909
+testimonial: keith-gaynor
 id: 31a2d438-bfe8-4930-b098-ab80c293ef89
 ---
 Are you developing/revising your wellbeing programme? 

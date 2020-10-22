@@ -1,117 +1,142 @@
-<main class="overflow-x-hidden" style="perspective:16px;transform-style:preserve-3d">
-    <section class="absolute inset-0 flex justify-center items-center h-83vh parallax parallax-one bg-gradient-to-r from-white via-white to-transparent" style="transform-style:inherit"></section>
-    <section id="home" class="relative flex flex-col w-full">
-                                
-        <section class="relative overflow-hidden h-83vh bg-transparent">
+<div class='parallax'>
+    <div class='parallax-group'>
+        <div class='parallax__layer--back absolute w-full h-full inset-0 h-83vh z-0'>
+            <div class='w-full h-full bg-gradient-to-r from-white via-white to-transparent'></div>
+        </div>
+        <div class='parallax__layer--base z-10'>
+            {{ partial:partials/nav }}
 
-            <div class="hero-logo absolute hidden xl:block h-48 top-32">
-                <img class="object-cover" src="{{ hero_logo }}" alt="Hero Logo"/>
-            </div>
+            <section id="home" class="relative flex flex-col w-full">
+                                        
+                <section class="relative overflow-hidden h-83vh bg-transparent">
 
-            <div class="flex flex-col justify-center items-start h-full max-w-full px-8 xl:max-w-screen-xl xl:mx-auto relative z-10 pb-8">
-
-                <main class="relative mt-20 mx-auto">
-                    <img class="h-16 sm:h-24 md:h-32 lg:h-40 xl:hidden object-cover" src="/assets/brand/BridOMeara_Label.png" alt="Hero Logo"/>
-                    <div class="w-8/12 xl:w-9/12 text-gray-600 text-xl xl:text-2xl my-16">
-                        {{ vision | markdown }}
+                    <div class="hero-logo absolute hidden xl:block h-48 top-32">
+                        <img class="object-cover" src="{{ settings:logo }}" alt="Hero Logo"/>
                     </div>
-                    <div class="mt-5 sm:mt-8 flex flex-col justify-start items-start md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-lg xl:text-xl font-medium">
-                        <a class="btn pill raised primary animated-icon-link" href='/contact' >
-                            <span class='mr-4'>Get In Touch</span>
-                            <div class='relative h-6 w-6 flex items-center justify-center'>
-                                <svg viewBox="0 0 20 20" fill="currentColor" class="absolute arrow-right w-6 h-6"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                <svg viewBox="0 0 20 20" fill="currentColor" class="absolute chevron-right w-6 h-6"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+
+                    <div class="flex flex-col justify-center items-start h-full max-w-full px-8 xl:max-w-screen-xl xl:mx-auto relative z-10 pb-8">
+
+                        <main class="relative mt-20 mx-auto">
+                            <img class="h-16 sm:h-24 md:h-32 lg:h-40 xl:hidden object-cover" src="/assets/brand/BridOMeara_Label.png" alt="Hero Logo"/>
+                            <div class="w-8/12 xl:w-9/12 text-gray-600 text-xl xl:text-2xl my-16">
+                                {{ vision | markdown }}
                             </div>
-                        </a>
-                        <a class="btn pill raised accent animated-icon-link md:ml-8" href='/services' >
-                            <span class='mr-4'>Services</span>
-                            <div class='relative h-6 w-6 flex items-center justify-center'>
-                                <svg viewBox="0 0 20 20" fill="currentColor" class="absolute arrow-right w-6 h-6"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                <svg viewBox="0 0 20 20" fill="currentColor" class="absolute chevron-right w-6 h-6"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                            <div class="mt-5 sm:mt-8 flex flex-col justify-start items-start md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-lg xl:text-xl font-medium">
+                                <a class="btn pill raised primary animated-icon-link" href='/contact' >
+                                    <span class='mr-4'>Get In Touch</span>
+                                    <div class='relative h-6 w-6 flex items-center justify-center'>
+                                        <svg viewBox="0 0 20 20" fill="currentColor" class="absolute arrow-right w-6 h-6"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                        <svg viewBox="0 0 20 20" fill="currentColor" class="absolute chevron-right w-6 h-6"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                </a>
+                                <a class="btn pill raised accent animated-icon-link md:ml-8" href='/services' >
+                                    <span class='mr-4'>Services</span>
+                                    <div class='relative h-6 w-6 flex items-center justify-center'>
+                                        <svg viewBox="0 0 20 20" fill="currentColor" class="absolute arrow-right w-6 h-6"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                        <svg viewBox="0 0 20 20" fill="currentColor" class="absolute chevron-right w-6 h-6"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                        </main>
+
                     </div>
-                </main>
 
-            </div>
+                </section>
 
-        </section>
+                <section class="bg-primary-500 text-white relative w-full py-16">
 
-        <section class="relative w-full py-16">
+                    <div class="absolute top-24 left-4 lg:left-8 xl:left-16 2xl:left-32 font-serif text-6xl">
+                        &ldquo;
+                    </div>
+                    <div class="absolute bottom-24 right-4 lg:right-8 xl:right-16 2xl:right-32 font-serif text-6xl">
+                        &rdquo;
+                    </div>
 
-            <div class="absolute top-24 left-4 lg:left-8 xl:left-12 font-serif text-4xl">
-                &ldquo;
-            </div>
-            <div class="absolute bottom-24 right-4 lg:right-8 xl:right-16 font-serif text-4xl">
-                &rdquo;
-            </div>
+                    <div class="max-w-full px-8 xl:max-w-screen-xl xl:px-0 xl:mx-auto pt-16 text-center font-serif leading-tight font-light text-xl md:text-2xl xl:text-3xl mb-4">
+                        <blockquote class="mx-auto w-11/12 xl:w-5/6 font-medium">
+                            {{ primary_testimonial.content | markdown | widont }}
+                            <footer class="subheading-2 font-sans text-right ml-12 mt-6">
+                                <div>&mdash; {{primary_testimonial.author}}</div>
+                                <div>{{primary_testimonial.organisation}}</div>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    
+                </section>
 
-            <div class="max-w-full px-8 xl:max-w-screen-xl xl:px-0 xl:mx-auto pt-24 text-center font-serif leading-tight font-light text-xl md:text-2xl xl:text-3xl mb-4">
-                <blockquote class="mx-auto w-11/12 xl:w-5/6">
-                    {{ testimonial.content | markdown | widont }}
-                    <footer class="subheading-2 font-sans opacity-50 text-right ml-12 mt-6">
-                        <div>&mdash; {{testimonial.author}}</div>
-                        <div>{{testimonial.organisation}}</div>
-                    </footer>
-                </blockquote>
-            </div>
-            
-        </section>
+                <section class='space-y-4 md:space-y-16 py-8 md:py-16 bg-white'>
+                    {{ collection from="services" }}
+                        {{ partial:services/preview }}
+                    {{ /collection }}
+                </section>
 
-        <section class='space-y-4 md:space-y-16 py-8 md:py-16'>
-            {{ taxonomy:offerings }} 
-                {{ partial:offerings/show}}
-            {{ /taxonomy:offerings }}
-        </section>
+                <section class="bg-primary-500 text-white relative w-full py-16">
 
-        <section id="contact" class="bg-primary-200 relative w-full mx-auto py-16 min-h-67vh flex flex-col justify-start items-stretch text-base font-serif">
-            <div class="z-10 max-w-full px-8 w-5/6 xl:max-w-screen-lg xl:px-0 mx-auto">
-                <form class="py-4 px-8 bg-white rounded shadow-lg z-10" id="contactForm" >
+                    <div class="absolute top-24 left-4 lg:left-8 xl:left-16 2xl:left-32 font-serif text-6xl">
+                        &ldquo;
+                    </div>
+                    <div class="absolute bottom-24 right-4 lg:right-8 xl:right-16 2xl:right-32 font-serif text-6xl">
+                        &rdquo;
+                    </div>
 
-                    <fieldset class="mt-6">
-                        <legend class="w-full pb-3 mb-8 border-b border-solid border-gray-300 font-light text-2xl">Get In Touch</legend>
-                        <div class="mb-8 flex flex-col md:flex-row justify-between align-stretch md:align-start relative">
-                            <div class="relative md:w-5/12">
-                                <label class="inline-block mb-3" for="name">Name</label>
-                                <input type="text" id="name" v-model="name" class="w-full p-3 border border-solid border-gray-300 rounded shadow-inner focus:border-primary-800 focus:shadow-md focus:outline-none" placeholder="Jane Doe" required />
-                            </div>
-                            <div class="relative md:w-5/12">
-                                <label class="inline-block mb-3" for="email">Email</label>
-                                <input type="email" id="email" v-model="email.value" placeholder="jane.doe@gmail.com" required class="w-full p-3 border border-solid rounded shadow-inner focus:shadow-md focus:outline-none" v-bind:class="{ 'border-gray-300 focus:border-primary-800': email.valid, 'border-red-500': !email.valid }" v-on:keyup="validateEmail" />
-                                <!--
-                            <div class="relative error-message">
-                                <p v-show="!email.valid">Woops, please enter a valid email address!</p>
-                            </div-->
-                            </div>
-                        </div>
-                        <div class="relative mb-4">
-                            <label class="inline-block mb-3" for="textarea">Message</label>
-                            <textarea class="message w-full p-3 border border-solid border-gray-300 rounded shadow-inner focus:border-primary-800 focus:shadow-md focus:outline-none resize-y overflow-auto min-h-48" id="textarea" v-model="message.text" required ></textarea>
-                            <span class="bg-gray-400 p-1 absolute top-0 right-0 rounded text-xs">@{{ message.text.length }} / @{{ message.maxlength }}</span>
-                        </div>
+                    <div class="max-w-full px-8 xl:max-w-screen-xl xl:px-0 xl:mx-auto pt-16 text-center font-serif leading-tight font-light text-xl md:text-2xl xl:text-3xl mb-4">
+                        <blockquote class="mx-auto w-11/12 xl:w-5/6 font-medium">
+                            {{ secondary_testimonial.content | markdown | widont }}
+                            <footer class="subheading-2 font-sans text-right ml-12 mt-6">
+                                <div>&mdash; {{secondary_testimonial.author}}</div>
+                                <div>{{secondary_testimonial.organisation}}</div>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    
+                </section>
 
-                        <div class='hover:text-black flex flex-row justify-end mb-2' >
-                            <button class="btn primary raised justify-center w-40 h-12" :class="[sendStatus.color, !canSend && !sendStatus.in_progress ? 'disabled' : '']" :disabled="!canSend" v-on:click.prevent="sendData" >
-                                <spinner v-if="sendStatus.in_progress"></spinner>
-                                <span v-else>
-                                    <span v-if="sendStatus.icon" v-html="sendStatus.icon"></span>
-                                    <span v-else>Send to Bríd</span>
-                                </span>
-                            </button>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-            
-            <div class="z-0 absolute bottom-0 right-0 w-120">
-                <img class="h-full w-full object-cover opacity-25" src="{{ settings:watermark }}" alt="">
-            </div>
+                <section id="contact" class="relative w-full mx-auto min-h-67vh flex flex-col justify-start items-stretch text-base font-serif bg-white">
+                    <div class="z-10 max-w-full px-8 w-5/6 xl:max-w-screen-lg xl:px-0 mx-auto py-16">
+                        <form class="py-4 px-8 bg-white rounded shadow-lg z-10" id="contactForm" >
 
-        </section>
+                            <fieldset>
+                                <legend class="w-full pb-3 mb-8 border-b border-solid border-gray-300 font-light text-2xl">Get In Touch</legend>
+                                <div class="mb-8 flex flex-col md:flex-row justify-between align-stretch md:align-start relative space-y-4 md:space-y-0">
+                                    <div class="relative md:w-5/12">
+                                        <label class="inline-block mb-3" for="name">Name</label>
+                                        <input type="text" id="name" v-model="name" class="w-full p-3 border border-solid border-gray-300 rounded shadow-inner focus:border-primary-800 focus:shadow-md focus:outline-none" placeholder="Jane Doe" required />
+                                    </div>
+                                    <div class="relative md:w-5/12">
+                                        <label class="inline-block mb-3" for="email">Email</label>
+                                        <input type="email" id="email" v-model="email.value" placeholder="jane.doe@gmail.com" required class="w-full p-3 border border-solid rounded shadow-inner focus:shadow-md focus:outline-none" v-bind:class="{ 'border-gray-300 focus:border-primary-800': email.valid, 'border-red-500': !email.valid }" v-on:keyup="validateEmail" />
+                                    </div>
+                                </div>
+                                <div class="relative mb-4">
+                                    <label class="inline-block mb-3" for="textarea">Message</label>
+                                    <textarea class="message w-full p-3 border border-solid border-gray-300 rounded shadow-inner focus:border-primary-800 focus:shadow-md focus:outline-none resize-y overflow-auto min-h-48" id="textarea" v-model="message.text" required ></textarea>
+                                    <span class="bg-gray-400 p-1 absolute top-0 right-0 rounded text-xs">@{{ message.text.length }} / @{{ message.maxlength }}</span>
+                                </div>
+                        
+                                <div class='hover:text-black flex flex-row justify-end mb-2' >
+                                    <button class="btn primary raised justify-center w-40 h-12" :class="[sendStatus.color, !canSend && !sendStatus.in_progress ? 'disabled' : '']" :disabled="!canSend" v-on:click.prevent="sendData" >
+                                        <spinner v-if="sendStatus.in_progress"></spinner>
+                                        <span v-else>
+                                            <span v-if="sendStatus.icon" v-html="sendStatus.icon"></span>
+                                            <span v-else>Send to Bríd</span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </fieldset>
+                            
+                        </form>
+                    </div>
+                    
+                </section>
 
-    </section>
+                {{ partial:partials/footer }}
 
-    <div class="flex flex-grow flex-col w-full relative">
-        {{ partial:partials/footer }}
+            </section>
+        </div>
     </div>
-</main>
+</div>
+<!-- 
+    <section class="absolute inset-0 flex justify-center items-center h-83vh parallax parallax-one bg-gradient-to-r from-white via-white to-transparent" style="transform-style:inherit"></section>
+
+
+</main> -->

@@ -5,7 +5,7 @@ Vue.component('spinner', {
   })
 
 var app = new Vue({
-    el: '#home',
+    el: '#contactForm',
     data() {
         return {
             emailRegExp: /^\S+@\S+$/,

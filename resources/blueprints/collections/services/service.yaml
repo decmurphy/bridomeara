@@ -11,20 +11,36 @@ sections:
           validate:
             - required
       -
+        handle: header
+        field:
+          input_type: text
+          display: Header
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: preview
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          display: Preview
+          type: markdown
+          icon: markdown
+          listable: hidden
+      -
         handle: content
         field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          display: Content
           type: markdown
-          localizable: true
-      -
-        handle: testimonial
-        field: teaser.testimonial
-      -
-        handle: template
-        field:
-          hide_partials: true
-          display: Template
-          type: template
-          icon: template
+          icon: markdown
           listable: hidden
   sidebar:
     display: Sidebar
@@ -37,3 +53,12 @@ sections:
           localizable: true
           validate:
             - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - services
+          max_items: 1
+          listable: false
+          localizable: true

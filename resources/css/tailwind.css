@@ -4,7 +4,7 @@
 @import "tailwindcss/utilities";
 
 .divider {
-    @apply border-gray-500 border-solid border-opacity-50;
+    @apply border-gray-600 border-solid;
     &:not(.vertical) {
         @apply my-4 border-b flex;
     }
@@ -16,15 +16,15 @@
 .btn {
     @apply flex flex-row justify-start items-center rounded-lg py-2 px-4 transition duration-250 ease-linear cursor-pointer focus:outline-none;
     &.primary {
-        @apply bg-primary-500 text-white;
+        @apply bg-primary-500 text-gray-700;
         &:hover {
-            @apply bg-primary-400 text-gray-600;
+            @apply bg-primary-400;
         }
     }
     &.accent {
-        @apply bg-accent-500 text-white;
+        @apply bg-accent-500 text-gray-700;
         &:hover {
-            @apply bg-accent-400 text-gray-600;
+            @apply bg-accent-400;
         }
     }
     &.warn {

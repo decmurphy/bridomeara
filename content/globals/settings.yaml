@@ -1,10 +1,9 @@
 title: Settings
 data:
-  favicon: brand/triple-spiral.png
+  favicon: brand/triple-spiral-white.png
   site_name: 'Bríd O'' Meara Consultancy'
   logo: brand/BridOMeara_Landscape_Final_Logo.svg
-  watermark:
-    - brand/BridOMeara_Symbol_Watermark.svg
+  watermark: brand/BridOMeara_Symbol_Watermark.svg
   social:
     -
       name: LinkedIn
