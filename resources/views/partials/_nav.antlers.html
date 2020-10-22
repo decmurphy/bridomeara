@@ -38,7 +38,7 @@
 
     </nav>
 
-    <div v-bind:class="{ 'dropdown-visible': mobileMenuOpen }" class="menu-container absolute top-16 transition-all duration-250 ease-in-out">
+    <div v-bind:class="{ 'dropdown-visible': mobileMenuOpen }" class="md:hidden menu-container absolute top-16 transition-all duration-250 ease-in-out">
         <div class='menu-card bg-fg-100 relative overflow-hidden rounded-lg shadow-2xl transition-all origin-top duration-250 ease-in-out'>
             <ul class='links relative flex flex-col justify-start items-start subheading-1 font-sans uppercase'>
                 {{ nav include_home="true" }}
