@@ -18,16 +18,25 @@ sections:
           type: text
           icon: text
           instructions: 'The name of the person who gave this testimonial'
+          listable: hidden
+      -
+        handle: primary_organisation
+        field:
+          input_type: text
+          display: 'Primary Organisation'
+          type: text
+          icon: text
+          instructions: 'What does the author REALLY do for a living?'
           width: 50
           listable: hidden
       -
-        handle: organisation
+        handle: secondary_organisation
         field:
           input_type: text
-          display: Organisation
+          display: 'Secondary Organisation'
           type: text
           icon: text
-          instructions: 'Where did you work with the author?'
+          instructions: 'What does the author *kind of* do for a living?'
           width: 50
           listable: hidden
       -
@@ -44,9 +53,12 @@ sections:
           instructions: 'What did they say about you?'
           listable: hidden
   sidebar:
+    display: Sidebar
     fields:
       -
         handle: slug
         field:
           type: slug
           required: true
+          validate:
+            - required

@@ -1,8 +1,6 @@
 ---
 title: 'Mental Health & Wellbeing Talks'
 testimonial: julie-breen
-testimonial_author: 'Jeanne Salter'
-testimonial_author_org: 'Aware Support Line volunteer'
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
 updated_at: 1603386896
 blueprint: service_page

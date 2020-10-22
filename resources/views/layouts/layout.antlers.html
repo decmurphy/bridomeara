@@ -16,11 +16,10 @@
     <link rel="icon" type="image/png" href="{{ settings:favicon }}"/>
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@flightclubio" />
     <meta name="twitter:creator" content="@decmurphy_" />
     <meta name="twitter:title" content="Bríd O' Meara" />
     <meta name="twitter:description" content="Bríd O' Meara is building a culture of mental wellbeing" />
-    <meta name="twitter:image" content="https://flightclub.io/assets/img/earth_and_sun.png" />
+    <meta name="twitter:image" content="{{ settings:logo }}" />
 
     <meta property="og:title" content="Bríd O' Meara" />
     <meta property="og:site_name" content="Bríd O' Meara" />
@@ -29,7 +28,7 @@
     <meta property="og:content" content="Bríd O' Meara is building a culture of mental wellbeing" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:image" content="https://flightclub.io/assets/img/earth_and_sun.png" />
+    <meta property="og:image" content="{{ settings:logo }}" />
 
     <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
 
@@ -38,7 +37,7 @@
 
 </head>
 
-<body class="font-sans text-gray-600 flex flex-col w-screen overflow-x-hidden" x-data="{ showMobileNav: false }">
+<body class="font-sans text-gray-600 flex flex-col w-screen overflow-x-hidden">
 
     {{ template_content }}
     

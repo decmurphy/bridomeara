@@ -59,7 +59,8 @@
                             {{ primary_testimonial.content | markdown | widont }}
                             <footer class="subheading-2 font-sans text-right ml-12 mt-6">
                                 <div>&mdash; {{primary_testimonial.author}}</div>
-                                <div>{{primary_testimonial.organisation}}</div>
+                                <div>{{primary_testimonial.primary_organisation}}</div>
+                                {{ if primary_testimonial.secondary_organisation }}<div>{{primary_testimonial.secondary_organisation}}</div>{{ /if }}
                             </footer>
                         </blockquote>
                     </div>
@@ -86,7 +87,8 @@
                             {{ secondary_testimonial.content | markdown | widont }}
                             <footer class="subheading-2 font-sans text-right ml-12 mt-6">
                                 <div>&mdash; {{secondary_testimonial.author}}</div>
-                                <div>{{secondary_testimonial.organisation}}</div>
+                                <div>{{secondary_testimonial.primary_organisation}}</div>
+                                {{ if secondary_testimonial.secondary_organisation }}<div>{{secondary_testimonial.secondary_organisation}}</div>{{ /if }}
                             </footer>
                         </blockquote>
                     </div>

@@ -1,11 +1,10 @@
 ---
 title: 'Expert Nursing Opinion'
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603386905
+updated_at: 1603408558
 blueprint: service_page
 template: services/show
 service: d7c78774-196f-4174-9c4a-6e861d04cce4
-testimonial: jeanne-salter
 id: 6b8dc343-1406-46e8-980b-24f78a18e59d
 ---
 A registered psychiatric nurse (RPN) and general nurse (RGN), Brid is committed to excellence in mental health care.
