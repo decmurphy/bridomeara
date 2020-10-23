@@ -1,5 +1,5 @@
 <section id="{{ slug }}" class="relative overflow-hidden">
-    <div class='md:flex-row-reverse md:text-right md:items-end'></div>
+    <div class='md:flex-row-reverse md:text-right md:items-end md:ml-0'></div> <!-- hack for bypassing PurgeCSS on switch tags-->
     <div class="w-11/12 mx-auto">
         <div class='relative flex flex-col-reverse items-center my-4 {{ switch between="md:flex-row|md:flex-row-reverse" }} items-center max-w-screen-xl mx-auto'>
 
@@ -29,5 +29,5 @@
 
         </div>
     </div>
-    <div class='divider mx-auto md:{{ switch between="mr-0|ml-0" }} w-2/3'></div>
+    <div class='divider mx-auto md:{{ switch between="md:mr-0|md:ml-0" }} w-2/3'></div>
 </section>
