@@ -32,15 +32,34 @@ sections:
           icon: markdown
           listable: hidden
       -
-        handle: profile_picture
+        handle: profile_picture_portrait
         field:
           mode: grid
           restrict: false
           allow_uploads: true
           max_files: 1
-          display: 'Profile PIcture'
+          display: 'Profile PIcture Portrait'
           type: assets
           icon: assets
+          listable: hidden
+          width: 50
+          instructions: 'Best for desktops'
+          container: assets
+          folder: profile_pictures
+      -
+        handle: profile_picture_landscape
+        field:
+          mode: grid
+          container: assets
+          folder: profile_pictures
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Profile Picture Landscape'
+          type: assets
+          icon: assets
+          instructions: 'This one is a better shape for mobile devices'
+          width: 50
           listable: hidden
   sidebar:
     display: Sidebar

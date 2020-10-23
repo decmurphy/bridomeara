@@ -8,4 +8,4 @@ preferences:
       after_save: continue_editing
   assets:
     assets:
-      mode: table
+      mode: grid

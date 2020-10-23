@@ -1,11 +1,13 @@
 ---
 title: About
-profile_picture: laura-chouette-qAeP0GPLeNE-unsplash.jpg
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603467987
+updated_at: 1603486006
 blueprint: about_page
 header: 'About Bríd'
 template: templates/about
+profile_picture: profile_pictures/Brid-161.jpg
+profile_picture_portrait: profile_pictures/Brid-161.jpg
+profile_picture_landscape: profile_pictures/Brid-050.jpg
 id: 77cca6de-2842-4ed2-ac7a-2bdfa8f6da46
 ---
 Bríd is a registered psychiatric and general trained nurse (RPN, RGN) with three decades of experience working in Mental Health in Ireland.
