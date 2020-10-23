@@ -1,9 +1,9 @@
 ---
 title: 'Expert Nursing Opinion'
 header: 'Bríd O'' Meara offers expertise in mental health nursing'
-preview: 'Brid is perfectly positioned to and experienced in providing expert medico-legal nursing opinion as well as carrying out reviews and investigations. Bríd is experienced in policy development and compliance with the Mental Health Act 2001, and the Health Act 2007, regulations 2013 as well as other governing legislation.'
+preview: 'Brid is perfectly positioned to and experienced in providing expert medico-legal nursing opinion as well as carrying out reviews and investigations in the area of mental health and dementia care. Bríd is experienced in policy development and compliance with the Mental Health Act 2001, and the Health Act 2007, regulations 2013 as well as other governing legislation.'
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603463097
+updated_at: 1603483696
 template: services/show
 id: d7c78774-196f-4174-9c4a-6e861d04cce4
 ---

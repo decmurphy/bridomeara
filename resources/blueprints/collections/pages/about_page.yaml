@@ -43,7 +43,7 @@ sections:
           icon: assets
           listable: hidden
           width: 50
-          instructions: 'Best for desktops'
+          instructions: 'This one will work best on larger screens'
           container: assets
           folder: profile_pictures
       -
@@ -58,7 +58,7 @@ sections:
           display: 'Profile Picture Landscape'
           type: assets
           icon: assets
-          instructions: 'This one is a better shape for mobile devices'
+          instructions: 'This one will look best on mobile or other small screens'
           width: 50
           listable: hidden
   sidebar:
