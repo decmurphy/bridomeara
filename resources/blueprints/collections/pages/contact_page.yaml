@@ -49,14 +49,6 @@ sections:
           icon: text
           width: 50
           listable: hidden
-      -
-        handle: template
-        field:
-          hide_partials: true
-          display: Template
-          type: template
-          icon: template
-          listable: hidden
   sidebar:
     display: Sidebar
     fields:

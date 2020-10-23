@@ -27,14 +27,6 @@ sections:
         field: teaser.testimonial
         config:
           width: 100
-      -
-        handle: template
-        field:
-          hide_partials: true
-          display: Template
-          type: template
-          icon: template
-          listable: hidden
   sidebar:
     display: Sidebar
     fields:

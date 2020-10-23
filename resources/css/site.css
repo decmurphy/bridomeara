@@ -32,7 +32,7 @@
     transform: translateZ(0);
   }
   .parallax__layer--back {
-    transform: translateZ(-600px) scale(3.7);
+    transform: translateZ(-600px) scale(3.9);
     background-image: url(https://source.unsplash.com/7xP5BJ34ybg/1600x900);
     background-position: right;
   }
