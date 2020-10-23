@@ -33,7 +33,7 @@
   }
   .parallax__layer--back {
     transform: translateZ(-600px) scale(3.9);
-    background-image: url(https://source.unsplash.com/7xP5BJ34ybg/1600x900);
+    /* background-image: var(--backgroundImageUrl); */
     background-position: right;
   }
 
@@ -84,19 +84,36 @@ nav .links li:hover > ul {
 .menu-container:not(.dropdown-visible) {
     opacity: 0;
     z-index: -10;
-    perspective: 2000px;
+    perspective: 20000px;
 }
 .menu-container:not(.dropdown-visible) .menu-card {
     height: 256px;
-    transform: rotateX(-15deg);
+    transform: rotateX(-90deg);
 }
 
 .menu-container.dropdown-visible {
     opacity: 1;
     z-index: 200;
-    perspective: 2000px;
+    perspective: 20000px;
 }
 .menu-container.dropdown-visible .menu-card {
     height: 256px;
     transform: rotateX(0deg);
+}
+
+.gradient {
+    &.left:not(.large) {
+        background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0.0) 10% );
+    }
+    &.left.large {
+        background: linear-gradient(to right, white 5%, rgba(255, 255, 255, 0.0) 30% );
+    }
+
+    &.right {
+        background: linear-gradient(to left, white 0%, rgba(255, 255, 255, 0.0) 10% );
+    }
+
+    &.bottom {
+        background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0.0) 20% );
+    }
 }
