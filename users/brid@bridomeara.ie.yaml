@@ -1,7 +1,7 @@
-name: Declan
+name: Bríd
 super: true
 id: da07ab4c-34e8-47d2-afe9-a33081c1f656
-password_hash: $2y$10$qAc/jvO7b6tsmcJn9qTrlOduYOBSpa3Fi4TFmmMbayHGMnhMRET..
+password_hash: $2y$10$aUAnVP3E2fD.wTPr27qNM.B6kKxhOdM56lHxiZ41q7CBLD5tqi6Ha
 preferences:
   collections:
     pages:
