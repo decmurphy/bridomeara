@@ -1,7 +1,7 @@
 ---
-title: 'Organisational Assistance'
+title: 'Workplace Wellness/Project Management'
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603453575
+updated_at: 1603559373
 blueprint: service_page
 template: services/show
 service: 3fba39f8-1d4d-42b8-9edc-b48eac4bc909

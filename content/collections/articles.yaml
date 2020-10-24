@@ -1,5 +1,10 @@
 title: Articles
+template: default
+layout: layout
 revisions: false
+order: date
+date: true
+sort_dir: desc
 date_behavior:
   past: public
   future: private

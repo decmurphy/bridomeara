@@ -1,7 +1,7 @@
 ---
 title: About
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603510270
+updated_at: 1603542964
 blueprint: about_page
 header: 'About Bríd'
 template: templates/about
@@ -12,13 +12,13 @@ id: 77cca6de-2842-4ed2-ac7a-2bdfa8f6da46
 ---
 Bríd is a registered psychiatric and general trained nurse (RPN, RGN) with over three decades of experience working in Mental Health in Ireland.
 
-She has held senior nursing and management positions including Director of Services with national mental health charity, Aware,  Director of Services in St. Joseph’s Centre for Dementia Care, Shankill and St. John of God Hospital Limited and Deputy Director of Nursing in St. John of God Psychiatric Hospital, Stillorgan, Dublin.
+Having gained experience in nursing roles at various levels, she has held senior nursing and management positions including Director of Services with national mental health charity, Aware,  Director of Services in St. Joseph’s Centre for Dementia Care, Shankill and St. John of God Hospital Limited and Deputy Director of Nursing in St. John of God Psychiatric Hospital, Stillorgan, Dublin.
 
-Bríd provides a unique and comprehensive offering with an extensive professional development portfolio combined with her experience in psychiatric and general nursing, health services management, project management, mental wellbeing programme and services development, public speaking and media.
+In addition to her nursing qualifications, Bríd holds a Masters Degree in Health Services Management (TCD) and a Higher Diploma in Healthcare Risk Management (UCD).
 
-With a special interest in the Recovery Framework, she is passionate about educating and empowering people to care for their own mental health. She constantly promotes self care for mental wellbeing and thrives on informing and educating people resulting in raising awareness about mental health and wellbeing. 
+Bríd provides a suite of unique and comprehensive services drawing on her extensive professional development portfolio combined with her experience in psychiatric and general nursing, health services management, project management, mental wellbeing programme and services development, public speaking and media.
 
-Bríd holds a Masters degree in Health Services Management (TCD) and a Higher Diploma in Healthcare Risk Management (UCD) as part of her extensive professional development portfolio.
+With a special interest in the Recovery Framework, she is passionate about educating and empowering people to care for their own mental health. She constantly promotes self care for mental wellbeing and thrives on informing and educating people, raising awareness about mental health and wellbeing. 
  
 A lover of learning, she is currently in the final stages of an Honours Degree in Integrative Counselling and Psychotherapy.
 
