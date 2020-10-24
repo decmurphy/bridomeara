@@ -1,6 +1,6 @@
 ---
-title: 'Workplace wellness/Project management'
-header: 'Bríd O'' Meara expertise in mental health and wellbeing programme development and project management'
+title: 'Workplace Wellness/Project Management'
+header: 'Bríd O'' Meara offers expertise in mental health and wellbeing programme development and project management'
 preview: |
   Are you developing/revising your wellbeing programme?
   
@@ -10,7 +10,7 @@ preview: |
   
   Are you looking for a mental health project manager?
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603483528
+updated_at: 1603508791
 testimonial: keith-gaynor
 template: services/show
 id: 3fba39f8-1d4d-42b8-9edc-b48eac4bc909
@@ -21,4 +21,4 @@ Experienced in developing mental health programmes and revising existing program
 
 With an extensive professional development portfolio, Bríd draws on evidenced based information and practice as well as her extensive professional experience. Using a collaborative approach, she is adept at working with teams to reach desired objectives 
 
-Bríd has led a number of mental health projects, including the award winning action research project “Changing observation practice in an acute mental health setting” in Saint John of God Hospital. She also developed, co-piloted and delivered Aware’s popular “Relative’s and Friends programme”.
+Bríd has led a number of mental health projects, including the award winning action research project “Changing observation practice in an acute mental health setting” in Saint John of God Hospital. She also developed, co-piloted and delivered Aware’s popular “Relatives and Friends programme”.
