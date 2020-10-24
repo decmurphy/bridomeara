@@ -23,14 +23,6 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
-      -
-        handle: template
-        field:
-          hide_partials: true
-          display: Template
-          type: template
-          icon: template
-          listable: hidden
   sidebar:
     display: Sidebar
     fields:
@@ -43,18 +35,8 @@ sections:
           validate:
             - required
       -
-        handle: topics
-        field:
-          type: terms
-          taxonomies:
-            - topics
-          display: Topics
-          mode: select
-      -
         handle: date
         field:
-          type: date
-          required: true
           mode: single
           time_enabled: false
           time_required: false
@@ -64,6 +46,7 @@ sections:
           columns: 1
           rows: 1
           display: Date
+          type: date
           icon: date
           listable: hidden
           validate:
@@ -71,9 +54,21 @@ sections:
       -
         handle: parent
         field:
-          type: entries
-          collections:
-            - articles
           max_items: 1
-          listable: false
-          localizable: true
+          mode: default
+          collections:
+            - pages
+          display: Parent
+          type: entries
+          icon: entries
+          listable: hidden
+      -
+        handle: topics
+        field:
+          mode: default
+          taxonomies:
+            - topics
+          display: Topics
+          type: terms
+          icon: taxonomy
+          listable: hidden

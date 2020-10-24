@@ -1,7 +1,7 @@
 ---
 title: About
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603509675
+updated_at: 1603510270
 blueprint: about_page
 header: 'About Bríd'
 template: templates/about
@@ -22,4 +22,4 @@ Bríd holds a Masters degree in Health Services Management (TCD) and a Higher Di
  
 A lover of learning, she is currently in the final stages of an Honours Degree in Integrative Counselling and Psychotherapy.
 
-Further information on Bríd's professional experience can be found on her [LinkedIn profile here](https://www.linkedin.com/in/br%C3%ADd-o-meara-90a39736/)
+Further information on Bríd's professional experience can be found on her [LinkedIn profile here](https://www.linkedin.com/in/br%C3%ADd-o-meara-90a39736/).

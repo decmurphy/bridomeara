@@ -6,11 +6,6 @@ preferences:
   collections:
     pages:
       after_save: continue_editing
-    articles:
-      columns:
-        - title
-        - slug
-        - date
   assets:
     assets:
       mode: table

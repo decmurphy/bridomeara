@@ -1,0 +1,37 @@
+---
+title: 'Pandemic Language'
+excerpt: |
+  As we settle onto Level Five of the National Framework for living with Covid-19, minding our mental health is of utmost importance.
+  
+  As I listen to the...
+parent: bd390c06-c8b7-403f-8ef8-1d50eae802f7
+topics:
+  - covid-19
+  - language
+updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
+updated_at: 1603514186
+id: 87c0a0ca-ac03-4571-9788-52e741351562
+---
+As we settle onto Level Five of the National Framework for living with Covid-19, minding our mental health is of utmost importance.
+
+As I listen to the radio, watch my daily news bulletin or simply hear conversations, I am struck by the amount of negativity in our narrative and the language we are using in relation to the pandemic.
+
+Restrictions, Social distancing, Lockdown...
+
+The language we use has a significant impact on our mental health, our thoughts impact our feelings and our behaviour, just as our behaviour impacts our thoughts and our feelings, a well-documented and core principle of how we all function as human beings.
+
+So, can we reconsider our language in relation to the pandemic?
+
+During Level 5 of the National Framework for living with Covid-19, can we remember that the measures being taken are Safety Measures. Can we refer to them as Safety Measures as opposed to restrictions? Notice how different it feels when we change that language.
+
+We are being asked to Physically Distance ourselves from other people, outside of our own homes, to inhibit the spread of the virus. We are not being asked to emotionally distance from other people, in fact it has never been more important to maintain social and emotional contact, but while practicing physical distancing. Telephones and technology are a wonderful means of connecting at this time. While telephones and technology can never replace physical contact, it enables us to stay connected, keep talking to each other and keep supporting each other.
+
+Lockdown suggests being confined and is a term often associated with prisons. We are not being locked down, we are being asked to stay at home as much as possible in order to minimise potential spread of this virus. On level 5, we can travel within 5 km of our homes for exercise and a list of essential services remain available to us, including supermarkets, pharmacies, hardware stores, banks, post offices and credit unions, car and bicycle repairs to name but a few.
+
+The language we use and the way we use it impacts the way we feel.
+
+While we are in Level 5 of the National Framework for living with Covid-19, can we please mind our language and mind our mental health.
+
+Stay safe
+
+_Bríd_
