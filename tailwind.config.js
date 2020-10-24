@@ -420,11 +420,9 @@ module.exports = {
     plugins: [],
     corePlugins: {
         container: false,
-        float: false,
         clear: false,
         visibility: false,
         backgroundAttachment: false,
-        backgroundPosition: false,
         backgroundRepeat: false,
     },
 };
