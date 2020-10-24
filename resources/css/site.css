@@ -102,18 +102,12 @@ nav .links li:hover > ul {
 }
 
 .gradient {
-    &.left:not(.large) {
-        background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0.0) 10% );
-    }
     &.left.large {
         background: linear-gradient(to right, white 5%, rgba(255, 255, 255, 0.0) 30% );
     }
 
-    &.right {
-        background: linear-gradient(to left, white 0%, rgba(255, 255, 255, 0.0) 10% );
-    }
 
     &.bottom {
-        background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0.0) 20% );
+        background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0.0) 10% );
     }
 }
