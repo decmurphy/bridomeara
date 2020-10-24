@@ -87,7 +87,7 @@ nav .links li:hover > ul {
     perspective: 20000px;
 }
 .menu-container:not(.dropdown-visible) .menu-card {
-    height: 256px;
+    height: 320px;
     transform: rotateX(-90deg);
 }
 
@@ -97,7 +97,7 @@ nav .links li:hover > ul {
     perspective: 20000px;
 }
 .menu-container.dropdown-visible .menu-card {
-    height: 256px;
+    height: 320px;
     transform: rotateX(0deg);
 }
 

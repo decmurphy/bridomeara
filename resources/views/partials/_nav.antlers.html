@@ -12,11 +12,11 @@
                 <!-- Desktop Nav  -->
                 <ul class='links relative hidden md:flex flex-row items-center subheading-1 font-sans uppercase text-center'>
                     {{ nav include_home="true" }}
-                        <li class='group relative {{ if depth == 1 }} w-32 {{ else }} w-72 h-16  {{ /if }}  bg-white rounded-sm'>
+                        <li class='group relative {{ if depth == 1 }} md:w-28 lg:w-36 {{ else }} w-72 h-16  {{ /if }}  bg-white rounded-sm'>
                             <a class='transition duration-150 ease-linear flex justify-center items-center h-full w-full px-4 py-2 transform rounded-lg {{ if url == "/contact"}} bg-accent-500 text-black hover:bg-accent-400 {{ else }} bg-white text-gray-700 hover:text-primary-900 hover:bg-primary-200 {{ /if }}' href='{{ url }}'>
                                 <span class='whitespace-normal'>{{ title }}</span>
                             </a>
-                            {{ if children }}
+                            {{ if url == "/services" }}
                             <ul class='drop absolute -left-20 top-8 hidden group-hover:block pt-4'>
                                 {{ *recursive children* }}
                             </ul>
