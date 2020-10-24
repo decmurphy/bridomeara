@@ -23,7 +23,7 @@ module.exports = {
     theme: {
         extend: {
             screens: {
-                '2xl': '1440px'
+                '2xl': '1640px'
             },
             colors: {
                 gmail: '#d93025',
