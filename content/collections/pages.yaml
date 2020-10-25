@@ -22,5 +22,7 @@ structure:
       children:
         -
           entry: eaf7bddf-2bb2-4d2a-9883-a2948387f2bc
+        -
+          entry: 8f60e830-5211-47df-91e6-ccc4da7b2276
     -
       entry: a21d0877-7840-4df2-af44-531adf5d77d8

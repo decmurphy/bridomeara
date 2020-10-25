@@ -42,6 +42,23 @@ sections:
           listable: hidden
           max_files: 1
       -
+        handle: who_definition
+        field:
+          display: 'WHO Definition'
+          type: textarea
+          icon: textarea
+          instructions: 'The WHO definition of Mental Health'
+          listable: hidden
+      -
+        handle: who_definition_source
+        field:
+          input_type: text
+          display: 'WHO Definition Source'
+          type: text
+          icon: text
+          instructions: 'Link to the above definition'
+          listable: hidden
+      -
         handle: social
         field:
           fields:
