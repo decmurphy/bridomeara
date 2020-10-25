@@ -1,12 +1,14 @@
 /* This is all you. */
 
-.hero_large {
+@media (min-width: 1640px) {
     /* 
         0.5 * (100% - 1280px) is the width of the gutter in xl screens
         147px is the width of the triskelle in the logo
         this will make the start of "Brid" line up with the vision text below
     */
-    margin-left: -173px;
+    .hero_large {
+        margin-left: -173px;
+    }
 }
 
 .parallax {
