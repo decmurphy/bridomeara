@@ -1,7 +1,7 @@
 ---
 title: About
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603542964
+updated_at: 1603630255
 blueprint: about_page
 header: 'About Bríd'
 template: templates/about
@@ -18,7 +18,7 @@ In addition to her nursing qualifications, Bríd holds a Masters Degree in Healt
 
 Bríd provides a suite of unique and comprehensive services drawing on her extensive professional development portfolio combined with her experience in psychiatric and general nursing, health services management, project management, mental wellbeing programme and services development, public speaking and media.
 
-With a special interest in the Recovery Framework, she is passionate about educating and empowering people to care for their own mental health. She constantly promotes self care for mental wellbeing and thrives on informing and educating people, raising awareness about mental health and wellbeing. 
+With a special interest in the Recovery Framework, she is passionate about educating and empowering people to care for their own mental health, assisting in changing and normalising attitudes and beliefs about mental wellbeing. She constantly promotes self care for mental wellbeing and thrives on simplifying approaches to care, ensuring accessibility for all. 
  
 A lover of learning, she is currently in the final stages of an Honours Degree in Integrative Counselling and Psychotherapy.
 

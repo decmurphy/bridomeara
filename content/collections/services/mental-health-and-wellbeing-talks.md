@@ -2,13 +2,13 @@
 title: 'Mental Health and Wellbeing Talks'
 header: 'Bríd O'' Meara offers expertise in mental health and wellbeing'
 preview: |
-  Are you looking for an experienced mental health professional to address your staff/group about their mental wellbeing?
+  Are you looking for an experienced mental health professional to address your employees/group about their mental wellbeing?
   
   Would you like to be able to recognise signs of common mental health conditions and learn what you can do to care for your mental health and wellbeing?
   
   Are you concerned about the mental wellbeing of your employees/group during the Covid-19 pandemic?
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603560917
+updated_at: 1603627950
 testimonial: jeanne-salter
 template: services/show
 id: 6c831ee8-5c0f-4dbe-a9a4-13f18cbd9a4f

@@ -8,7 +8,7 @@ preview: |
   
   Are you looking for an expert nursing opinion in dementia care?
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603560626
+updated_at: 1603628000
 template: services/show
 id: d7c78774-196f-4174-9c4a-6e861d04cce4
 ---
@@ -20,6 +20,6 @@ With over three decades working in mental health in Ireland, Bríd is experience
 
 Holding a Higher Diploma in Healthcare Risk Management (UCD) and a MSc in Health Services Management (TCD), Bríd has a special interest in patient observation and was the principal researcher and leader in an action research project ‘Changing Observation Practice in an Acute Mental Health setting’ which won The Irish Medical Times Irish Healthcare Award, in 2012. 
 
-She is a strong advocate of the Recovery Framework in mental health.
+She is an advocate of the Recovery Framework in mental health.
 
 With an extensive professional development portfolio, Bríd has completed excellence in report writing, expert witness and courtroom skills training.
