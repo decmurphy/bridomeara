@@ -4,7 +4,7 @@
     <section id="show" class="relative flex flex-grow flex-col w-full">
         <section class='flex flex-col h-full max-w-full px-8 xl:max-w-screen-xl xl:mx-auto mt-8 md:mt-20 {{ unless testimonial }} flex-grow mb-36 md:mb-20 {{ /if }}'>
             
-            <div class='flex flex-col items-center z-10 w-full 2xl:w-2/3'>
+            <div class='flex flex-col items-center z-10 w-full {{ if service.id != "3fba39f8-1d4d-42b8-9edc-b48eac4bc909" }} 2xl:w-2/3 {{ /if }}'>
                 <div class='divider border-b-2 mb-12'>
                     <span class='text-4xl sm:text-5xl font-light pb-12'>{{ service.header | markdown }}</span>
                 </div>
