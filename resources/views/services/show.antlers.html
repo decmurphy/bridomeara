@@ -1,4 +1,4 @@
-<main class='min-h-screen flex flex-col'>
+<main class='min-h-screen flex flex-col overflow-x-hidden'>
     
     {{ partial:partials/nav }}
     <section id="show" class="relative flex flex-grow flex-col w-full">
@@ -14,23 +14,23 @@
             {{ if service.id == "3fba39f8-1d4d-42b8-9edc-b48eac4bc909" }}
             <div class='flex flex-col justify-start items-start z-10'>
                 <div class='w-full space-y-8 text-lg'>
-                        <blockquote class="md:ml-4 mb-4 md:mt-2 float-right min-w-80 md:min-w-120 max-w-full md:w-1/4 h-auto xl:-mr-4 2xl:-mr-16 bg-accent-300 p-4 rounded-lg">
-                            <div class="font-serif text-2xl lg:text-3xl xl:text-4xl text-center font-light">
-                                &ldquo;
-                                {{ settings:who_definition }}
-                                &rdquo;
-                            </div>
-                            <footer class="text-right mt-6">
-                                &mdash; <a href="{{ settings:who_definition_source }}">The World Health Organisation</a>
-                            </footer>
-                        </blockquote>
+                    <blockquote class="md:ml-4 mb-4 md:mt-2 float-right min-w-80 md:min-w-120 max-w-full md:w-1/4 h-auto xl:-mr-4 2xl:-mr-16 bg-accent-300 p-4 rounded-lg">
+                        <div class="font-serif text-2xl lg:text-3xl xl:text-4xl text-center font-light">
+                            &ldquo;
+                            {{ settings:who_definition }}
+                            &rdquo;
+                        </div>
+                        <footer class="text-right mt-6">
+                            &mdash; <a href="{{ settings:who_definition_source }}">The World Health Organisation</a>
+                        </footer>
+                    </blockquote>
                     <p>{{ service.content | widont | markdown }}</p>
                     </div>
             </div>
             {{ else }}
             <div class='flex flex-col justify-start items-start z-10'>
                 <div class='w-full space-y-8 2xl:w-2/3 text-lg'>
-                    <img src="{{ image }}" alt="{{ image.alt }}" class="ml-4 my-2 hidden md:block 2xl:hidden float-right md:h-67vh lg:h-75vh w-auto lg:-mr-16" >
+                    <img src="{{ image }}" alt="{{ image.alt }}" class="ml-4 my-2 2xl:hidden float-right h-auto sm:h-50vh md:h-67vh lg:h-75vh max-h-75vh w-full sm:w-auto sm:max-w-1/2 object-cover lg:-mr-16" >
                     <p>{{ service.content | widont | markdown }}</p>
                 </div>
             </div>
