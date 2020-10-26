@@ -1,8 +1,7 @@
-title: Articles
-template: default
+title: Blogs
+template: articles/show
 layout: layout
 revisions: false
-order: date
 date: true
 sort_dir: desc
 date_behavior:

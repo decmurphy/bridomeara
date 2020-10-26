@@ -1,5 +1,5 @@
 title: Services
-template: default
+template: services/show
 layout: layout
 revisions: false
 sort_dir: asc

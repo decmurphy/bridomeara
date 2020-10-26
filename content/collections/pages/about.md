@@ -1,7 +1,7 @@
 ---
 title: About
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603630255
+updated_at: 1603662091
 blueprint: about_page
 header: 'About Bríd'
 template: templates/about
@@ -16,7 +16,7 @@ Having gained experience in nursing roles at various levels, she has held senior
 
 In addition to her nursing qualifications, Bríd holds a Masters Degree in Health Services Management (TCD) and a Higher Diploma in Healthcare Risk Management (UCD).
 
-Bríd provides a suite of unique and comprehensive services drawing on her extensive professional development portfolio combined with her experience in psychiatric and general nursing, health services management, project management, mental wellbeing programme and services development, public speaking and media.
+Bríd provides a suite of unique and comprehensive services drawing on her extensive professional development portfolio. She combines this with her experience in nursing, health services management, project management, mental wellbeing programme development, services development, public speaking and media.
 
 With a special interest in the Recovery Framework, she is passionate about educating and empowering people to care for their own mental health, assisting in changing and normalising attitudes and beliefs about mental wellbeing. She constantly promotes self care for mental wellbeing and thrives on simplifying approaches to care, ensuring accessibility for all. 
  
