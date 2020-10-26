@@ -2,22 +2,22 @@
     
     {{ partial:partials/nav }}
     <section id="show" class="relative flex flex-grow flex-col w-full">
-        <section class='flex flex-col flex-grow z-10 h-full max-w-full px-8 xl:max-w-screen-xl xl:mx-auto lg:mt-20 mb-32'>
+        <main class='flex flex-col flex-grow z-10 h-full max-w-full px-8 xl:max-w-screen-xl xl:mx-auto lg:mt-20 mb-32'>
 
             <article class="max-w-2xl mx-auto">
 
                 <div class='flex flex-col items-center'>
                     <div class='divider border-b-2 mb-12'>
-                        <span class='text-5xl font-light pb-12'>{{ article.title }}</span>
+                        <h1 class='text-5xl font-light pb-12'>{{ article.title }}</h1>
                     </div>
                 </div>
 
                 <div class="bg-gray-800 inline-block text-sm mb-16 pr-4 pl-16 -ml-16 uppercase tracking-widest text-white py-1 rounded-r-full">
                     Published on {{ date format="M j, Y" }}
                 </div>
-                <div class="space-y-4">
+                <p class="space-y-4">
                     {{ article.content | widont | markdown }}
-                </div>
+                </p>
                 {{ if article.audio }}
                 <figure>
                     <figcaption></figcaption>
@@ -31,7 +31,7 @@
                 {{ /if }}
             </article>
 
-        </section>
+        </main>
 
         {{ partial:partials/footer }}
 
