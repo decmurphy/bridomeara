@@ -84,9 +84,9 @@ nav .links li:hover > ul {
 }
 
 .menu-container:not(.dropdown-visible) {
-    opacity: 0;
     z-index: -10;
     perspective: 20000px;
+    transform: translateY(-320px);
 }
 .menu-container:not(.dropdown-visible) .menu-card {
     height: 320px;
@@ -94,9 +94,9 @@ nav .links li:hover > ul {
 }
 
 .menu-container.dropdown-visible {
-    opacity: 1;
-    z-index: 200;
+    z-index: -10;
     perspective: 20000px;
+    transform: translateY(0px);
 }
 .menu-container.dropdown-visible .menu-card {
     height: 320px;
