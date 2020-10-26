@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="bg-gray-800 inline-block text-sm mb-16 pr-4 pl-16 -ml-16 uppercase tracking-widest text-white py-1 rounded-r-full">
-                    Published on {{ date format="M j, Y" }}
+                    Published on {{ article.date }}
                 </div>
                 <p class="space-y-4">
                     {{ article.content | widont | markdown }}
