@@ -1,5 +1,5 @@
 ---
-title: 'Project Management / Workplace Wellness'
+title: 'Project Management / Workplace Wellbeing'
 header: 'Bríd O'' Meara offers expertise in mental wellbeing programme development and project management'
 preview: |
   Are you looking for a mental health project manager?
@@ -10,7 +10,7 @@ preview: |
   
   Have you considered mental wellbeing in light of Covid 19?
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1603662309
+updated_at: 1604050290
 testimonial: keith-gaynor
 template: services/show
 id: 3fba39f8-1d4d-42b8-9edc-b48eac4bc909
