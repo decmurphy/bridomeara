@@ -11,23 +11,26 @@
             </div>
 
             <div class='flex flex-col justify-start items-start z-10'>
-                <div class='w-full space-y-8 {{ if image }} 2xl:w-2/3 {{ /if }} text-lg'>
-                    {{ if quote }}
-                    <blockquote class="md:ml-4 mb-4 md:mt-2 float-right min-w-80 md:min-w-120 max-w-full md:w-1/4 h-auto xl:-mr-4 2xl:-mr-16 bg-accent-300 p-4 rounded-lg">
-                        <div class="font-serif text-2xl lg:text-3xl xl:text-4xl text-center font-light">
-                            &ldquo; {{ quote }} &rdquo;
-                        </div>
-                        <footer class="text-right mt-6">
-                            {{ if quote_credit_link }}
-                                &mdash; <a href="{{ quote_credit_link }}">{{ quote_credit }}</a>
-                            {{ else }}
-                                &mdash; {{ quote_credit }}
-                            {{ /if }}
-                        </footer>
-                    </blockquote>
-                    {{ /if }}
+                <div class='space-x-8 {{ if image }} 2xl:w-2/3 {{ /if }}'>
                     <img src="{{ image }}" alt="{{ image.alt }}" class="ml-4 my-2 2xl:hidden float-right h-auto sm:h-50vh md:h-67vh lg:h-75vh max-h-75vh w-full sm:w-auto sm:max-w-1/2 object-cover lg:-mr-16" >
-                    <p>{{ service.content | widont | markdown }}</p>
+
+                    <div class='space-y-8 text-lg'>
+                        {{ if quote }}
+                        <blockquote class="md:ml-4 mb-4 mr-8 md:mt-2 float-right min-w-80 md:min-w-120 max-w-full md:w-1/4 h-auto 2xl:-mr-16 bg-accent-300 p-4 rounded-lg">
+                            <div class="font-serif text-2xl lg:text-3xl xl:text-4xl text-center font-light">
+                                &ldquo; {{ quote }} &rdquo;
+                            </div>
+                            <footer class="text-right mt-6">
+                                {{ if quote_credit_link }}
+                                    &mdash; <a href="{{ quote_credit_link }}">{{ quote_credit }}</a>
+                                {{ else }}
+                                    &mdash; {{ quote_credit }}
+                                {{ /if }}
+                            </footer>
+                        </blockquote>
+                        {{ /if }}
+                        <p>{{ service.content | widont | markdown }}</p>
+                    </div>
                 </div>
             </div>
 
