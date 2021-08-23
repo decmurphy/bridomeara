@@ -407,7 +407,9 @@ module.exports = {
         textColor: ['responsive', 'hover', 'focus', 'group-hover'],
         display: ['responsive', 'hover', 'focus', 'group-hover'],
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/typography')
+    ],
     corePlugins: {
         container: false,
         clear: false,
