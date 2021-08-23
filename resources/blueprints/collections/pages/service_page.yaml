@@ -39,6 +39,36 @@ sections:
           type: assets
           icon: assets
           listable: hidden
+      -
+        handle: quote
+        field:
+          placeholder: 'Something inspirational...'
+          antlers: false
+          display: Quote
+          type: textarea
+          icon: textarea
+          instructions: 'Want a quote in a pink box? Put it here!'
+          listable: true
+      -
+        handle: quote_credit
+        field:
+          input_type: text
+          antlers: false
+          display: 'Quote Credit'
+          type: text
+          icon: text
+          instructions: 'Who said this quote?'
+          width: 50
+          listable: true
+      -
+        handle: quote_credit_link
+        field:
+          display: 'Quote Credit Link'
+          type: link
+          icon: link
+          instructions: 'An optional field to link to the source of this quote'
+          width: 50
+          listable: true
   sidebar:
     display: Sidebar
     fields:
@@ -50,6 +80,7 @@ sections:
           localizable: true
           validate:
             - required
+            - 'unique_entry_value:{collection},{id},{site}'
       -
         handle: parent
         field:

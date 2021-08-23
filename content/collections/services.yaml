@@ -9,10 +9,3 @@ date_behavior:
 structure:
   root: false
   max_depth: 1
-  tree:
-    -
-      entry: 6c831ee8-5c0f-4dbe-a9a4-13f18cbd9a4f
-    -
-      entry: 3fba39f8-1d4d-42b8-9edc-b48eac4bc909
-    -
-      entry: d7c78774-196f-4174-9c4a-6e861d04cce4

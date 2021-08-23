@@ -1,17 +1,15 @@
 ---
+id: 6710b249-e10a-470e-83a9-d81d2e1dcda9
+blueprint: service
 title: 'Counselling and Psychotherapy'
 header: 'Counselling and Psychotherapy'
-preview: |
+preview: |-
   Are you looking for a counsellor/psychotherapist?
-  
+
   People seek counselling for many different reasons. Some seek help to resolve issues from the past, some to manage current life issues, some to address stress, anxiety, low mood, burnout or other mental health issues.
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1629739130
-id: 6710b249-e10a-470e-83a9-d81d2e1dcda9
+updated_at: 1629751401
 ---
-<em>“No person is immune to the inherent tragedies of existence”</em>.\
--Irvin Yalom, 2002.
-
 People seek counselling for many different reasons. Some seek help to resolve issues from the past, some to manage current life issues, some to address stress, anxiety, low mood, burnout or other mental health issues.
 
 I see people as multidimensional human beings, who are constantly interacting with the world around them. I place you and your life issues at the centre of your therapy experience, as we work together in a safe, caring and non-judgmental space

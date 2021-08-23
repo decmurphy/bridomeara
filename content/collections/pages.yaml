@@ -3,28 +3,3 @@ revisions: false
 route: '{parent_uri}/{slug}'
 structure:
   root: true
-  tree:
-    -
-      entry: home
-    -
-      entry: 77cca6de-2842-4ed2-ac7a-2bdfa8f6da46
-    -
-      entry: 535d59c4-09cd-456d-8442-da5bedd3f612
-      children:
-        -
-          entry: 149db3d4-bbb1-49fa-bef4-4fa432a7e0c4
-        -
-          entry: 31a2d438-bfe8-4930-b098-ab80c293ef89
-        -
-          entry: 6b8dc343-1406-46e8-980b-24f78a18e59d
-        -
-          entry: e49051c0-3ed1-40b7-978d-3636b3f3ef1d
-    -
-      entry: bd390c06-c8b7-403f-8ef8-1d50eae802f7
-      children:
-        -
-          entry: eaf7bddf-2bb2-4d2a-9883-a2948387f2bc
-        -
-          entry: 8f60e830-5211-47df-91e6-ccc4da7b2276
-    -
-      entry: a21d0877-7840-4df2-af44-531adf5d77d8

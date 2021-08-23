@@ -1,12 +1,15 @@
 ---
+id: 31a2d438-bfe8-4930-b098-ab80c293ef89
+blueprint: service_page
 title: 'Project Management / Workplace Wellbeing'
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1604058038
-blueprint: service_page
+updated_at: 1629751591
 template: services/show
 service: 3fba39f8-1d4d-42b8-9edc-b48eac4bc909
 testimonial: claire-hayes
-id: 31a2d438-bfe8-4930-b098-ab80c293ef89
+quote: 'Mental health is a state of well-being in which an individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and is able to make a contribution to his or her community.'
+quote_credit: 'The World Health Organisation'
+quote_credit_link: 'https://www.who.int/en/news-room/fact-sheets/detail/mental-health-strengthening-our-response'
 ---
 Are you developing/revising your wellbeing programme? 
 
