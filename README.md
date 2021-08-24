@@ -1,3 +1,21 @@
+# Clone & Setup
+`git clone git@github.com:decmurphy/bridomeara.git ~/Sites/`
+`composer install`
+`cp .env.example .env && php artisan key:generate`
+`npm install`
+
+# Development
+`npm run dev`
+
+# Production
+`npm run production`
+
+# Notes
+- Dev server will be available at `http://bridomeara.test` thanks to Laravel Valet (this is why project must be cloned into ~/Sites)
+- Cache clear is necessary in production a lot, especially if upgraded Statamic version or other core change
+`php artisan cache:clear`
+- In production, PHP version is not the system PHP version, but rather the server PHP version, since Nginx needs it's own implementation of PHP to run (PHP-FPM). Statamic 3/Composer 2 requires PHP >= 7.3. Check inside the nginx.conf file for this site to see the PHP version being used.
+
 <p align="center"><img src="https://statamic.com/assets/branding/Statamic-Logo+Wordmark-Rad.svg" width="400" alt="Statamic Logo" /></p>
 
 ## About Statamic 3
