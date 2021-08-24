@@ -18,6 +18,7 @@ npm run production
 
 # Notes
 - Dev server will be available at `http://bridomeara.test` thanks to Laravel Valet (this is why project must be cloned into ~/Sites)
+- To update Statamic version programatically (can also be done via CP), change `require.statamic/cms` version in `composer.json`. A `composer update` will then be required, along with some cache clearing probably.
 - Cache clear is necessary in production a lot, especially if upgraded Statamic version or other core change
 ```
 php artisan cache:clear
