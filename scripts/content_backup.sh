@@ -1,11 +1,11 @@
 #!/bin/bash
 
-cd ~/git/bridomeara.ie/
+cd ~/git/bridomeara/
 git pull
 
-cp -r /var/www/bridomeara.ie/content/* content/
-cp -r /var/www/bridomeara.ie/public/assets/* public/assets/
-cp -r /var/www/bridomeara.ie/resources/* resources/
+cp -r /var/www/bridomeara.ie/content/* ~/git/bridomeara/content/
+cp -r /var/www/bridomeara.ie/public/assets/* ~/git/bridomeara/public/assets/
+cp -r /var/www/bridomeara.ie/resources/* ~/git/bridomeara/resources/
 
 git add .
 git commit -m "Automated Content Backup"
