@@ -157,7 +157,7 @@
                             </div>
 
                             <div class='hover:text-black flex flex-row justify-end mb-2'>
-                                <button class="btn primary raised justify-center w-40 h-12"
+                                <button class="btn primary raised w-40 h-12"
                                     :class="[sendStatus.color, !canSend && !sendStatus.in_progress ? 'disabled' : '']"
                                     :disabled="!canSend" v-on:click.prevent="sendData">
                                     <spinner v-if="sendStatus.in_progress"></spinner>

@@ -1149,6 +1149,9 @@ nav .links li:hover > ul {
 .mt-20 {
   margin-top: 5rem;
 }
+.mt-4 {
+  margin-top: 1rem;
+}
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -1379,6 +1382,11 @@ nav .links li:hover > ul {
   --tw-border-opacity: 1;
   border-color: rgba(209, 213, 219, 1);
   border-color: rgba(209, 213, 219, var(--tw-border-opacity));
+}
+.border-gray-600 {
+  --tw-border-opacity: 1;
+  border-color: rgba(75, 85, 99, 1);
+  border-color: rgba(75, 85, 99, var(--tw-border-opacity));
 }
 .border-primary-800 {
   --tw-border-opacity: 1;
@@ -1660,32 +1668,6 @@ nav .links li:hover > ul {
 .ease-linear {
   transition-timing-function: linear;
 }
-.divider {
-  border-style: solid;
-  --tw-border-opacity: 1;
-  border-color: rgba(75, 85, 99, 1);
-  border-color: rgba(75, 85, 99, var(--tw-border-opacity));
-}
-.divider:not(.vertical) {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.divider:not(.vertical) {
-  display: flex;
-}
-.divider:not(.vertical) {
-  border-bottom-width: 1px;
-}
-.divider.vertical {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-.divider.vertical {
-  display: flex;
-}
-.divider.vertical {
-  border-right-width: 1px;
-}
 a {
   cursor: pointer;
   --tw-text-opacity: 1;
@@ -1698,11 +1680,7 @@ a:hover {
   color: rgba(220, 56, 135, var(--tw-text-opacity));
 }
 .btn {
-  display: flex;
   cursor: pointer;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
   border-radius: 0.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
