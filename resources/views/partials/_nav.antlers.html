@@ -10,25 +10,31 @@
             <div class='flex'>
 
                 <!-- Desktop Nav  -->
-                <ul class='links relative hidden md:flex flex-row items-center subheading-1 font-sans uppercase text-center'>
+                <ul class='links relative hidden md:flex flex-row items-center subheading-1 uppercase text-center'>
                     {{ nav include_home="true" }}
-                        <li class='group relative {{ if depth == 1 }} md:w-28 lg:w-36 {{ else }} w-72 h-16  {{ /if }}  bg-white rounded-sm'>
-                            <a class='transition duration-150 ease-linear flex justify-center items-center h-full w-full px-4 py-2 transform rounded-lg {{ if url == "/contact"}} bg-accent-500 text-black hover:bg-accent-400 {{ else }} bg-white text-gray-700 hover:text-primary-900 hover:bg-primary-200 {{ /if }}' href='{{ url }}'>
-                                <span class='whitespace-normal'>{{ title }}</span>
-                            </a>
-                            {{ if url == "/services" }}
-                            <ul class='drop absolute -left-20 top-8 hidden group-hover:block pt-4'>
-                                {{ *recursive children* }}
-                            </ul>
-                            {{ /if }}
-                        </li>
+                    <li
+                        class='group relative font-sans {{ if depth == 1 }} md:w-28 lg:w-36 {{ else }} w-72 h-16  {{ /if }}  bg-white rounded-sm'>
+                        <a class='transition duration-150 ease-linear flex justify-center items-center h-full w-full px-4 py-2 transform rounded-lg {{ if url == "/contact"}} bg-accent-500 text-black hover:bg-accent-400 {{ else }} bg-white text-gray-700 hover:text-primary-900 hover:bg-primary-200 {{ /if }}'
+                            href='{{ url }}'>
+                            <span class='whitespace-normal'>{{ title }}</span>
+                        </a>
+                        {{ if url == "/services" }}
+                        <ul class='drop absolute -left-20 top-8 hidden group-hover:block pt-4'>
+                            {{ *recursive children* }}
+                        </ul>
+                        {{ /if }}
+                    </li>
                     {{ /nav }}
                 </ul>
 
                 <!-- Mobile Nav  -->
                 <div class='flex md:hidden items-center justify-center h-full'>
                     <button v-on:click.prevent="toggleMobileMenu()">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
                     </button>
                 </div>
 
@@ -38,15 +44,18 @@
 
     </nav>
 
-    <div v-bind:class="{ 'dropdown-visible': mobileMenuOpen }" class="md:hidden menu-container absolute top-16 transition-all duration-500 ease-in-out">
-        <div class='menu-card bg-fg-100 relative overflow-hidden rounded-lg shadow-2xl transition-all origin-top duration-250 ease-in-out'>
-            <ul class='links relative flex flex-col justify-start items-start subheading-1 font-sans uppercase'>
+    <div v-bind:class="{ 'dropdown-visible': mobileMenuOpen }"
+        class="md:hidden menu-container absolute top-16 transition-all duration-500 ease-in-out">
+        <div
+            class='menu-card bg-fg-100 relative overflow-hidden rounded-lg shadow-2xl transition-all origin-top duration-250 ease-in-out'>
+            <ul class='links relative flex flex-col justify-start items-start subheading-1 uppercase'>
                 {{ nav include_home="true" }}
-                    <li class='relative w-screen flex bg-white h-16 '>
-                        <a class='w-full h-full flex items-center transition duration-150 ease-linear px-12 py-2 transform bg-white text-gray-700 hover:bg-primary-500' href='{{ url }}'>
-                            <span class='whitespace-normal'>{{ title }}</span>
-                        </a>
-                    </li>
+                <li class='relative font-sans w-screen flex bg-white h-16 '>
+                    <a class='w-full h-full flex items-center transition duration-150 ease-linear px-12 py-2 transform bg-white text-gray-700 hover:bg-primary-500'
+                        href='{{ url }}'>
+                        <span class='whitespace-normal'>{{ title }}</span>
+                    </a>
+                </li>
                 {{ /nav }}
             </ul>
         </div>

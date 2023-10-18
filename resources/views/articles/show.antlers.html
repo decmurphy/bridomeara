@@ -1,29 +1,28 @@
 <main class='min-h-screen flex flex-col'>
-    
+
     {{ partial:partials/nav }}
     <section id="show" class="relative flex flex-grow flex-col w-full">
         <main class='flex flex-col flex-grow z-10 h-full max-w-full px-8 xl:max-w-screen-xl xl:mx-auto lg:mt-20 mb-32'>
 
             <article class="prose lg:prose-xl">
 
-                <div class='divider border-b-2 mb-12'>
-                    <h1 class='text-5xl font-light pb-12'>{{ article.title }}</h1>
+                <div class='flex mt-4 border-b border-gray-600 border-solid border-b-2 mb-12'>
+                    <h1 class='font-light pb-12'>{{ article.title }}</h1>
                 </div>
 
-                <div class="bg-gray-800 inline-block text-sm mb-16 pr-4 pl-16 -ml-16 uppercase tracking-widest text-white py-1 rounded-r-full">
+                <div
+                    class="bg-gray-800 inline-block text-sm mb-16 pr-4 pl-16 -ml-16 uppercase tracking-widest text-white py-1 rounded-r-full">
                     Published on {{ article.date }}
                 </div>
-                
+
                 {{ article.content | widont | markdown }}
 
                 {{ if article.audio }}
                 <figure>
                     <figcaption></figcaption>
-                    <audio class='w-full lg:w-3/4 mx-auto my-12'
-                        controls
-                        src="{{ article.audio }}">
-                            Your browser does not support the
-                            <code>audio</code> element.
+                    <audio class='w-full lg:w-3/4 mx-auto my-12' controls src="{{ article.audio }}">
+                        Your browser does not support the
+                        <code>audio</code> element.
                     </audio>
                 </figure>
                 {{ /if }}

@@ -3,52 +3,53 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-.divider {
-    @apply border-gray-600 border-solid;
-    &:not(.vertical) {
-        @apply my-4 border-b flex;
-    }
-    &.vertical {
-        @apply mx-4 border-r flex; 
-    }
-}
-
 a {
     @apply text-accent-500 hover:text-accent-700 cursor-pointer;
 }
 
 .btn {
-    @apply flex flex-row justify-start items-center rounded-lg py-2 px-4 transition duration-250 ease-linear cursor-pointer focus:outline-none;
+    @apply rounded-lg py-2 px-4 transition duration-250 ease-linear cursor-pointer focus:outline-none;
+
     &.primary {
         @apply bg-primary-500 text-white;
+
         &:hover {
             @apply bg-primary-400;
         }
     }
+
     &.accent {
         @apply bg-accent-500 text-white;
+
         &:hover {
             @apply bg-accent-400;
         }
     }
+
     &.warn {
         @apply bg-warn-500 text-white;
+
         &:hover {
             @apply bg-warn-400 text-gray-600;
         }
     }
+
     &.raised {
         @apply shadow-xl;
     }
+
     &.fab {
         @apply p-4 h-6 w-6 box-content rounded-full shadow-2xl;
     }
+
     &.pill {
         @apply flex flex-row items-center rounded-full;
     }
+
     &:active {
         @apply outline-none;
     }
+
     &.disabled {
         @apply cursor-default pointer-events-none opacity-50;
     }
