@@ -1,141 +1,182 @@
 <div class='parallax' style="--backgroundImageUrl: url('{{ image }}')">
     <div class='parallax__group'>
-        <div class='parallax__layer--back absolute w-full h-full inset-0 z-0' style="background-image: var(--backgroundImageUrl)">
+        <div class='parallax__layer--back absolute w-full h-full inset-0 z-0'
+            style="background-image: var(--backgroundImageUrl)">
             <div class='w-full h-full bg-gradient-to-r from-white via-white to-transparent'></div>
         </div>
         <div class='parallax__layer--base z-10'>
             {{ partial:partials/nav }}
 
             <div id="home" class="relative flex flex-col w-full">
-                                        
+
                 <main class="relative overflow-hidden bg-transparent">
 
-                    <div class="flex flex-col justify-start items-start h-full max-w-full px-8 xl:px-2 py-8 sm:py-12 md:py-24 lg:py-32 xl:py-40 xl:max-w-screen-xl xl:mx-auto relative z-10 space-y-8">
+                    <div
+                        class="flex flex-col justify-start items-start h-full max-w-full px-8 xl:px-2 py-8 sm:py-12 md:py-24 lg:py-32 xl:py-40 xl:max-w-screen-xl xl:mx-auto relative z-10 space-y-8">
 
                         <div class="hidden md:block hero_large h-32 lg:h-40 xl:h-40">
-                            <img class="object-cover h-full" src="{{ hero_logo_large }}" alt="{{ image.alt }}"/>
+                            <img class="object-cover h-full" src="{{ hero_logo_large }}" alt="{{ image.alt }}" />
                         </div>
                         <div class="block md:hidden h-16 sm:h-24">
-                            <img class="object-cover h-full" src="{{ hero_logo_small }}" alt="{{ image.alt }}"/>
+                            <img class="object-cover h-full" src="{{ hero_logo_small }}" alt="{{ image.alt }}" />
                         </div>
 
                         <div class="relative mx-auto">
                             <h1 class="w-8/12 xl:w-9/12 text-gray-600 text-xl xl:text-2xl mt-2 mb-24">
                                 {{ vision | markdown }}
                             </h1>
-                            <div class="mt-5 sm:mt-8 flex flex-col justify-start items-start md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-lg xl:text-xl font-medium">
-                                <a class="btn pill raised primary animated-icon-link" href='/services' >
+                            <div
+                                class="mt-5 sm:mt-8 flex flex-col justify-start items-start md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-lg xl:text-xl font-medium">
+                                <a class="btn pill raised primary animated-icon-link" href='/services'>
                                     <span class='mr-4'>Services</span>
                                     <div class='relative h-6 w-6 flex items-center justify-center'>
-                                        <svg viewBox="0 0 20 20" fill="currentColor" class="absolute arrow-right w-6 h-6"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                        <svg viewBox="0 0 20 20" fill="currentColor" class="absolute chevron-right w-6 h-6"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                                        <svg viewBox="0 0 20 20" fill="currentColor"
+                                            class="absolute arrow-right w-6 h-6">
+                                            <path fill-rule="evenodd"
+                                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                        <svg viewBox="0 0 20 20" fill="currentColor"
+                                            class="absolute chevron-right w-6 h-6">
+                                            <path fill-rule="evenodd"
+                                                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
                                     </div>
                                 </a>
-                                <a class="btn pill raised accent animated-icon-link" href='/contact' >
+                                <a class="btn pill raised accent animated-icon-link" href='/contact'>
                                     <span class='mr-4'>Get In Touch</span>
                                     <div class='relative h-6 w-6 flex items-center justify-center'>
-                                        <svg viewBox="0 0 20 20" fill="currentColor" class="absolute arrow-right w-6 h-6"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                        <svg viewBox="0 0 20 20" fill="currentColor" class="absolute chevron-right w-6 h-6"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                                        <svg viewBox="0 0 20 20" fill="currentColor"
+                                            class="absolute arrow-right w-6 h-6">
+                                            <path fill-rule="evenodd"
+                                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                        <svg viewBox="0 0 20 20" fill="currentColor"
+                                            class="absolute chevron-right w-6 h-6">
+                                            <path fill-rule="evenodd"
+                                                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
                                     </div>
                                 </a>
                             </div>
-                        </main>
-
-                    </div>
-
                 </main>
 
-                <article class="bg-primary-500 text-white relative w-full py-16">
-
-                    <div class="absolute top-24 left-4 lg:left-8 xl:left-16 2xl:left-32 font-serif text-6xl">
-                        &ldquo;
-                    </div>
-                    <div class="absolute bottom-24 right-4 lg:right-8 xl:right-16 2xl:right-32 font-serif text-6xl">
-                        &rdquo;
-                    </div>
-
-                    <div class="max-w-full px-8 xl:max-w-screen-xl xl:px-0 xl:mx-auto pt-16 text-center font-serif leading-tight font-light text-xl md:text-2xl xl:text-3xl mb-4">
-                        <blockquote class="mx-auto w-11/12 xl:w-5/6 font-medium">
-                            {{ primary_testimonial.content | markdown | widont }}
-                            <footer class="subheading-2 font-sans text-right ml-12 mt-6">
-                                <div>&mdash; {{primary_testimonial.author}}</div>
-                                <div>{{primary_testimonial.primary_organisation}}</div>
-                                {{ if primary_testimonial.secondary_organisation }}<div>{{primary_testimonial.secondary_organisation}}</div>{{ /if }}
-                            </footer>
-                        </blockquote>
-                    </div>
-                    
-                </article>
-
-                <article class='space-y-4 md:space-y-16 py-8 md:py-16 bg-white'>
-                    {{ collection from="services" }}
-                        {{ partial:services/preview }}
-                    {{ /collection }}
-                </article>
-
-                <article class="bg-primary-500 text-white relative w-full py-16">
-
-                    <div class="absolute top-24 left-4 lg:left-8 xl:left-16 2xl:left-32 font-serif text-6xl">
-                        &ldquo;
-                    </div>
-                    <div class="absolute bottom-24 right-4 lg:right-8 xl:right-16 2xl:right-32 font-serif text-6xl">
-                        &rdquo;
-                    </div>
-
-                    <div class="max-w-full px-8 xl:max-w-screen-xl xl:px-0 xl:mx-auto pt-16 text-center font-serif leading-tight font-light text-xl md:text-2xl xl:text-3xl mb-4">
-                        <blockquote class="mx-auto w-11/12 xl:w-5/6 font-medium">
-                            {{ secondary_testimonial.content | markdown | widont }}
-                            <footer class="subheading-2 font-sans text-right ml-12 mt-6">
-                                <div>&mdash; {{secondary_testimonial.author}}</div>
-                                <div>{{secondary_testimonial.primary_organisation}}</div>
-                                {{ if secondary_testimonial.secondary_organisation }}<div>{{secondary_testimonial.secondary_organisation}}</div>{{ /if }}
-                            </footer>
-                        </blockquote>
-                    </div>
-                    
-                </article>
-
-                <article id="contact" class="relative w-full mx-auto flex flex-col justify-start items-stretch text-base font-serif mt-20 mb-36 md:mb-20">
-                    <div class="z-10 max-w-full px-8 md:w-5/6 xl:max-w-screen-lg xl:px-0 md:mx-auto">
-                        <form class="py-4 px-8 rounded shadow-lg z-10" id="contactForm" >
-
-                            <fieldset>
-                                <legend class="w-full pb-3 mb-8 border-b border-solid border-gray-300 font-light text-2xl">Get In Touch</legend>
-                                <div class="mb-8 flex flex-col md:flex-row justify-between align-stretch md:align-start relative space-y-4 md:space-y-0">
-                                    <div class="relative md:w-5/12">
-                                        <label class="inline-block mb-3" for="name">Name</label>
-                                        <input type="text" id="name" v-model="name" class="w-full p-3 border border-solid border-gray-300 rounded shadow-inner focus:border-primary-800 focus:shadow-md focus:outline-none" placeholder="Jane Doe" required />
-                                    </div>
-                                    <div class="relative md:w-5/12">
-                                        <label class="inline-block mb-3" for="email">Email</label>
-                                        <input type="email" id="email" v-model="email.value" placeholder="jane.doe@gmail.com" required class="w-full p-3 border border-solid rounded shadow-inner focus:shadow-md focus:outline-none" v-bind:class="{ 'border-gray-300 focus:border-primary-800': email.valid, 'border-warn-500': !email.valid }" v-on:keyup="validateEmail" />
-                                    </div>
-                                </div>
-                                <div class="relative mb-4">
-                                    <label class="inline-block mb-3" for="textarea">Message</label>
-                                    <textarea class="message w-full p-3 border border-solid border-gray-300 rounded shadow-inner focus:border-primary-800 focus:shadow-md focus:outline-none resize-y overflow-auto min-h-48" id="textarea" v-model="message.text" required ></textarea>
-                                    <span class="bg-gray-400 p-1 absolute top-0 right-0 rounded text-xs">@{{ message.text.length }} / @{{ message.maxlength }}</span>
-                                </div>
-                        
-                                <div class='hover:text-black flex flex-row justify-end mb-2' >
-                                    <button class="btn primary raised justify-center w-40 h-12" :class="[sendStatus.color, !canSend && !sendStatus.in_progress ? 'disabled' : '']" :disabled="!canSend" v-on:click.prevent="sendData" >
-                                        <spinner v-if="sendStatus.in_progress"></spinner>
-                                        <span v-else>
-                                            <span v-if="sendStatus.icon" v-html="sendStatus.icon"></span>
-                                            <span v-else>Send to Bríd</span>
-                                        </span>
-                                    </button>
-                                </div>
-                            </fieldset>
-                            
-                        </form>
-                    </div>
-                    
-                </article>
-
-                {{ partial:partials/footer }}
-
             </div>
+
+            </main>
+
+            <article class="bg-primary-500 text-white relative w-full py-16">
+
+                <div class="absolute top-24 left-4 lg:left-8 xl:left-16 2xl:left-32 font-serif text-6xl">
+                    &ldquo;
+                </div>
+                <div class="absolute bottom-24 right-4 lg:right-8 xl:right-16 2xl:right-32 font-serif text-6xl">
+                    &rdquo;
+                </div>
+
+                <div
+                    class="max-w-full px-8 xl:max-w-screen-xl xl:px-0 xl:mx-auto pt-16 text-center font-serif leading-tight font-light text-xl md:text-2xl xl:text-3xl mb-4">
+                    <blockquote class="mx-auto w-11/12 xl:w-5/6 font-medium">
+                        {{ primary_testimonial.content | markdown | widont }}
+                        <footer class="subheading-2 text-right ml-12 mt-6">
+                            <div class="font-sans">&mdash; {{primary_testimonial.author}}</div>
+                            <div class="font-sans">{{primary_testimonial.primary_organisation}}</div>
+                            {{ if primary_testimonial.secondary_organisation }}<div class="font-sans">
+                                {{primary_testimonial.secondary_organisation}}</div>{{ /if }}
+                        </footer>
+                    </blockquote>
+                </div>
+
+            </article>
+
+            <article class='space-y-4 md:space-y-16 py-8 md:py-16 bg-white'>
+                {{ collection from="services" }}
+                {{ partial:services/preview }}
+                {{ /collection }}
+            </article>
+
+            <article class="bg-primary-500 text-white relative w-full py-16">
+
+                <div class="absolute top-24 left-4 lg:left-8 xl:left-16 2xl:left-32 font-serif text-6xl">
+                    &ldquo;
+                </div>
+                <div class="absolute bottom-24 right-4 lg:right-8 xl:right-16 2xl:right-32 font-serif text-6xl">
+                    &rdquo;
+                </div>
+
+                <div
+                    class="max-w-full px-8 xl:max-w-screen-xl xl:px-0 xl:mx-auto pt-16 text-center font-serif leading-tight font-light text-xl md:text-2xl xl:text-3xl mb-4">
+                    <blockquote class="mx-auto w-11/12 xl:w-5/6 font-medium">
+                        {{ secondary_testimonial.content | markdown | widont }}
+                        <footer class="subheading-2 text-right ml-12 mt-6">
+                            <div class="font-sans">&mdash; {{secondary_testimonial.author}}</div>
+                            <div class="font-sans">{{secondary_testimonial.primary_organisation}}</div>
+                            {{ if secondary_testimonial.secondary_organisation }}<div class="font-sans">
+                                {{secondary_testimonial.secondary_organisation}}</div>{{ /if }}
+                        </footer>
+                    </blockquote>
+                </div>
+
+            </article>
+
+            <article id="contact"
+                class="relative w-full mx-auto flex flex-col justify-start items-stretch text-base font-serif mt-20 mb-36 md:mb-20">
+                <div class="z-10 max-w-full px-8 md:w-5/6 xl:max-w-screen-lg xl:px-0 md:mx-auto">
+                    <form class="py-4 px-8 rounded shadow-lg z-10" id="contactForm">
+
+                        <fieldset>
+                            <legend class="w-full pb-3 mb-8 border-b border-solid border-gray-300 font-light text-2xl">
+                                Get In Touch</legend>
+                            <div
+                                class="mb-8 flex flex-col md:flex-row justify-between align-stretch md:align-start relative space-y-4 md:space-y-0">
+                                <div class="relative md:w-5/12">
+                                    <label class="inline-block mb-3" for="name">Name</label>
+                                    <input type="text" id="name" v-model="name"
+                                        class="w-full p-3 border border-solid border-gray-300 rounded shadow-inner focus:border-primary-800 focus:shadow-md focus:outline-none"
+                                        placeholder="Jane Doe" required />
+                                </div>
+                                <div class="relative md:w-5/12">
+                                    <label class="inline-block mb-3" for="email">Email</label>
+                                    <input type="email" id="email" v-model="email.value"
+                                        placeholder="jane.doe@gmail.com" required
+                                        class="w-full p-3 border border-solid rounded shadow-inner focus:shadow-md focus:outline-none"
+                                        v-bind:class="{ 'border-gray-300 focus:border-primary-800': email.valid, 'border-warn-500': !email.valid }"
+                                        v-on:keyup="validateEmail" />
+                                </div>
+                            </div>
+                            <div class="relative mb-4">
+                                <label class="inline-block mb-3" for="textarea">Message</label>
+                                <textarea
+                                    class="message w-full p-3 border border-solid border-gray-300 rounded shadow-inner focus:border-primary-800 focus:shadow-md focus:outline-none resize-y overflow-auto min-h-48"
+                                    id="textarea" v-model="message.text" required></textarea>
+                                <span class="bg-gray-400 p-1 absolute top-0 right-0 rounded text-xs">@{{
+                                    message.text.length }} / @{{ message.maxlength }}</span>
+                            </div>
+
+                            <div class='hover:text-black flex flex-row justify-end mb-2'>
+                                <button class="btn primary raised justify-center w-40 h-12"
+                                    :class="[sendStatus.color, !canSend && !sendStatus.in_progress ? 'disabled' : '']"
+                                    :disabled="!canSend" v-on:click.prevent="sendData">
+                                    <spinner v-if="sendStatus.in_progress"></spinner>
+                                    <span v-else>
+                                        <span v-if="sendStatus.icon" v-html="sendStatus.icon"></span>
+                                        <span v-else>Send to Bríd</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </fieldset>
+
+                    </form>
+                </div>
+
+            </article>
+
+            {{ partial:partials/footer }}
+
         </div>
     </div>
+</div>
 </div>
