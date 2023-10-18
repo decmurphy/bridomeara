@@ -6,7 +6,6 @@ module.exports = {
         './resources/**/*.vue',
         './content/**/*.md',
     ],
-    important: true,
     theme: {
         extend: {
             screens: {
