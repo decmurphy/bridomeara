@@ -1,5 +1,4 @@
 module.exports = {
-    mode: 'jit',
     content: [
         './resources/**/*.antlers.html',
         './resources/**/*.antlers.php',
@@ -397,22 +396,7 @@ module.exports = {
             },
         },
     },
-    variants: {
-        opacity: ['responsive', 'hover', 'focus', 'group-hover'],
-        textOpacity: ['responsive', 'hover', 'focus', 'group-hover'],
-        scale: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
-        backgroundColor: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
-        textColor: ['responsive', 'hover', 'focus', 'group-hover'],
-        display: ['responsive', 'hover', 'focus', 'group-hover'],
-    },
     plugins: [
         require('@tailwindcss/typography')
-    ],
-    corePlugins: {
-        container: false,
-        clear: false,
-        visibility: false,
-        backgroundAttachment: false,
-        backgroundRepeat: false,
-    },
+    ]
 }
