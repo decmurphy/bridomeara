@@ -1,17 +1,18 @@
 ---
-title: 'Expert Nursing Opinion'
-header: 'Bríd O'' Meara offers expertise in mental health nursing'
-preview: |
-  Are you looking for an expert nursing opinion in mental health?
-  
-  Are you looking for an experienced mental health professional with an excellent track record in compliance, governance, policy development, clinical reviews and investigations?
-  
-  Are you looking for an expert nursing opinion in dementia care?
-updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1629737754
-template: services/show
 id: d7c78774-196f-4174-9c4a-6e861d04cce4
 published: false
+blueprint: service
+title: 'Expert Nursing Opinion'
+header: "Bríd O' Meara offers expertise in mental health nursing"
+preview: |-
+  Are you looking for an expert nursing opinion in mental health?
+
+  Are you looking for an experienced mental health professional with an excellent track record in compliance, governance, policy development, clinical reviews and investigations?
+
+  Are you looking for an expert nursing opinion in dementia care?
+updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
+updated_at: 1697650451
+template: services/show
 ---
 A registered psychiatric nurse (RPN) and general nurse (RGN), Brid is committed to excellence in mental health care and dementia care.
 
@@ -23,4 +24,4 @@ Holding a Higher Diploma in Healthcare Risk Management (UCD) and a MSc in Health
 
 She is an advocate of the Recovery Framework in mental health.
 
-With an extensive professional development portfolio, Bríd has completed excellence in report writing, expert witness and courtroom skills training.
+With an extensive professional development portfolio, Bríd has completed excellence in report writing, expert witness and courtroom skills training
