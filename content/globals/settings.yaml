@@ -1,21 +1,17 @@
 title: Settings
 data:
   favicon: brand/favicon.png
-  site_name: 'Bríd O'' Meara Consultancy'
+  site_name: "Bríd O' Meara Consultancy"
   logo: brand/BridOMeara_Landscape_Final_Logo.svg
   watermark: brand/BridOMeara_Symbol_Watermark.svg
   social:
     -
+      id: eZspu4mg
       name: LinkedIn
       url: 'https://www.linkedin.com/in/br%C3%ADd-o-meara-90a39736/'
       icon: social_icons/linkedin.svg
     -
-      name: Facebook
-      url: 'https://www.facebook.com/brid.omeara.7'
-      icon: social_icons/facebook.svg
-    -
+      id: PmGjGdLA
       name: Email
       url: 'mailto:brid@bridomeara.ie'
       icon: social_icons/email.svg
-  who_definition: 'Mental health is a state of well-being in which an individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and is able to make a contribution to his or her community.'
-  who_definition_source: 'https://www.who.int/en/news-room/fact-sheets/detail/mental-health-strengthening-our-response'
