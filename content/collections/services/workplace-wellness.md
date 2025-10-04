@@ -2,7 +2,7 @@
 id: 3fba39f8-1d4d-42b8-9edc-b48eac4bc909
 blueprint: service
 title: 'Project Management / Workplace Wellbeing'
-header: 'Bríd O'' Meara offers expertise in mental wellbeing programme development and project management'
+header: "Bríd O' Meara offers expertise in mental wellbeing programme development and project management"
 preview: |-
   Are you looking for a mental health project manager?
 
@@ -10,11 +10,11 @@ preview: |-
 
   Have you considered including evidenced based, effective and relevant material on mental health and wellbeing?
 updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
-updated_at: 1677187228
+updated_at: 1759587566
 testimonial: keith-gaynor
 template: services/show
 ---
-With over three decades of experience practicing in mental health in Ireland, Brid is committed to and highly accomplished in the empowerment of people to care for their own mental health and in supporting those experiencing mental health difficulties. Bríd brings a wealth of professional knowledge and expertise in mental wellbeing and clinical governance.
+With over four decades of experience practicing in mental health in Ireland, Brid is committed to and highly accomplished in the empowerment of people to care for their own mental health and in supporting those experiencing mental health difficulties. Bríd brings a wealth of professional knowledge and expertise in mental wellbeing and clinical governance.
 
 Experienced in both the development and revision of mental health programmes, Bríd is excellent at explaining mental health concerns in a way anyone can understand, such as anxiety, stress, depression, burnout. She provides a wealth of information on looking after and normalising one’s mental health. Bríd provides advice for line managers and senior management in addressing mental health concerns in the workplace. 
 
