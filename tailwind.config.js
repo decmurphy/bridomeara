@@ -261,6 +261,7 @@ module.exports = {
                 '10/12': '83.333333%',
                 '11/12': '91.666667%',
                 max: '1180px',
+                'fit': 'fit-content',
             },
             maxWidth: {
                 '32': '8rem',
