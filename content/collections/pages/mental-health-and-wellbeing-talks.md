@@ -7,7 +7,7 @@ updated_by: da07ab4c-34e8-47d2-afe9-a33081c1f656
 updated_at: 1759585188
 template: services/show
 service: 6c831ee8-5c0f-4dbe-a9a4-13f18cbd9a4f
-image: profile_pictures/Brid_4657.jpg
+image: profile_pictures/Brid-037.jpg
 ---
 Having practiced as a psychiatric nurse, held senior nursing and healthcare management positions in acute inpatient mental health, dementia care and voluntary/community mental health care delivery, and delivered education on mental health, Bríd has accumulated a wealth of knowledge and expertise on mental health topics.  
 

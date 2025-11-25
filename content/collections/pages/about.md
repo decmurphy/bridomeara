@@ -7,7 +7,7 @@ updated_at: 1759582682
 header: 'About Bríd'
 template: templates/about
 profile_picture: laura-chouette-qAeP0GPLeNE-unsplash.jpg
-profile_picture_portrait: profile_pictures/Brid-110.jpg
+profile_picture_portrait: profile_pictures/Brid-187.jpg
 profile_picture_landscape: profile_pictures/Brid-029.jpg
 ---
 Bríd is an accredited member of the Irish Association for Counselling and Psychotherapy (MIACP), an accredited EMDR practitioner, with a BA (Hons) in Integrative Counselling and Psychotherapy. She is also a registered psychiatric and general trained nurse (RPN, RGN), and has over four decades of experience working in mental health and wellbeing in Ireland.
